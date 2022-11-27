@@ -14,12 +14,24 @@ const Footer = () => {
 
 const FooterContainer = styled.div`
   background: #11204d;
-  padding: 30px 0px;
+
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
+  }
+
+  @media (min-width: 992px) {
+    padding: 30px 0px;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px 0px;
+    }
   }
 `;
 export default Footer;
