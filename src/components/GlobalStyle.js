@@ -20,6 +20,11 @@ const GlobalStyle = createGlobalStyle`
         color: #11204D;
     }
 
+    .text-14{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
     .text-17{
         font-size: 17px;
         line-height: 31px;
@@ -50,6 +55,10 @@ const GlobalStyle = createGlobalStyle`
 
     .weight-light{
         font-weight: 300;
+    }
+
+    .weight-bold{
+        font-weight: 700;
     }
 
 `;

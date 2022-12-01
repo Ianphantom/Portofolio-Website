@@ -1,22 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import TypeWriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 // Import Images
 import Experience from "../images/experience.png";
 
-const HomeSectionOne = (e) => {
-  console.log(e);
-  const [isHidden, setIsHidden] = useState(false);
-
-  const showText = () => {
-    setIsHidden(true);
-  };
-
-  const hideText = () => {
-    setIsHidden(false);
-  };
-
+const HomeSectionOne = () => {
   return (
     <SectionContainer>
       <div className='container'>
@@ -44,13 +34,19 @@ const HomeSectionOne = (e) => {
           <div className='col-md-6 portofolio-preview'>
             <div className='row'>
               <div className='col-md-4 col-6 previewPorto'>
-                <img
+                <motion.img
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
                   src='http://tanshcreative.com/modak-st-preview/modak/assets/images/photography_img1.jpg'
                   alt='img Preview'
                 />
               </div>
               <div className='col-md-8 col-6 previewPorto'>
-                <img
+                <motion.img
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
                   src='http://tanshcreative.com/modak-st-preview/modak/assets/images/photography_img4.jpg'
                   alt='Img Preview'
                 />
