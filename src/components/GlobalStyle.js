@@ -16,8 +16,16 @@ const GlobalStyle = createGlobalStyle`
         color: #6138BD;
     }
 
+    .text-primary{
+        color: #6138BD;
+    }
+
     .text-color-2{
         color: #11204D;
+    }
+
+    .text-subtitle{
+        color: rgba(17, 32, 77, 0.35);
     }
 
     .text-14{

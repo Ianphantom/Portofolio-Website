@@ -4,12 +4,14 @@ import React from "react";
 // Import Section
 import HomeSectionOne from "../components/HomeSectionOne";
 import HomeSectionTwo from "../components/HomeSectionTwo";
+import HomeContact from "../components/HomeContact";
 
 const Home = () => {
   return (
     <div>
       <HomeSectionOne />
       <HomeSectionTwo />
+      <HomeContact />
     </div>
   );
 };
