@@ -4,6 +4,7 @@ import React from "react";
 // Import Section
 import HomeSectionOne from "../components/HomeSectionOne";
 import HomeSectionTwo from "../components/HomeSectionTwo";
+import HomeExperience from "../components/HomeExperience";
 import HomeContact from "../components/HomeContact";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     <div>
       <HomeSectionOne />
       <HomeSectionTwo />
+      <HomeExperience />
       <HomeContact />
     </div>
   );
