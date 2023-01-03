@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Jost', sans-serif;
     }
 
+    .playfair{
+        font-family: "Playfair Display" !important;
+    }
+
     li{
         list-style: none;
     }

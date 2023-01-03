@@ -6,7 +6,7 @@ const HomeContact = () => {
     <SectionContainer>
       <div className='container'>
         <div className='head'>
-          <div className='title text-36 text-color-2 weight-bold'>
+          <div className='title text-36 text-color-2 weight-bold playfair'>
             Say Hello
           </div>
           <div className='sub-title text-14 weight-bold text-subtitle'>

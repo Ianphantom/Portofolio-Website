@@ -57,6 +57,7 @@ const HireContainer = styled.div`
     margin-top: 41px;
     display: flex;
     justify-content: center;
+
     .buttonContainer {
       display: flex;
       align-items: center;
@@ -65,11 +66,28 @@ const HireContainer = styled.div`
       border: 1px solid rgba(17, 32, 77, 0.2);
       border-radius: 10px;
       padding: 16px 28px;
+      transition: ease-in 0.3s;
+      color: white;
+      background: #6138bd;
+      path {
+        fill: white;
+      }
     }
     .text {
       font-weight: 500;
       font-size: 17px;
       line-height: 24px;
+    }
+
+    &:hover {
+      .buttonContainer {
+        color: #11204d;
+        border: 1px solid #11204d;
+        background: white;
+        path {
+          fill: #11204d;
+        }
+      }
     }
   }
 `;

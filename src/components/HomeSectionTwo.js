@@ -14,7 +14,7 @@ const HomeSectionTwo = () => {
             <img src={MeImage} alt='Myself Preview' />
           </div>
           <div className='col-md-6 section2'>
-            <div className='h1 text-36 weight-bold'>About Me</div>
+            <div className='h1 text-36 weight-bold playfair'>About Me</div>
             <div className='h2 text-14 weight-bold'>
               Subheading or information goes here
             </div>
