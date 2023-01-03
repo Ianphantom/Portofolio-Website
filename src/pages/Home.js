@@ -6,6 +6,7 @@ import HomeSectionOne from "../components/HomeSectionOne";
 import HomeSectionTwo from "../components/HomeSectionTwo";
 import HomeExperience from "../components/HomeExperience";
 import HomeContact from "../components/HomeContact";
+import HomeHireMe from "../components/HomeHireMe";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeSectionOne />
       <HomeSectionTwo />
       <HomeExperience />
+      <HomeHireMe />
       <HomeContact />
     </div>
   );
