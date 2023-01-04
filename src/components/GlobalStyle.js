@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: "Playfair Display" !important;
     }
 
+    .space{
+        font-family: 'Space Grotesk', sans-serif !important;
+    }
+
     li{
         list-style: none;
     }
