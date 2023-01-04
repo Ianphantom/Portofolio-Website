@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 // import Component
 import ProjectComponent from "./ProjectComponent";
@@ -25,7 +26,13 @@ const HomeProject = () => {
         </div>
         <div className='bottom'>
           <div className='rowFlex'>
-            <ProjectComponent images={uxdesign} title={"UI/UX Mobile Design"} />
+            <Link to='/uiux/shifterion'>
+              <ProjectComponent
+                images={uxdesign}
+                title={"UI/UX Mobile Design"}
+              />
+            </Link>
+
             <ProjectComponent images={reactCreative} title={"React Creative"} />
             <ProjectComponent
               images={javascriptCreative}
@@ -64,7 +71,7 @@ const ProjectContainer = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     .bottom {
       .rowFlex {
         flex-direction: column;

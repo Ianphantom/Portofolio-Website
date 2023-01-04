@@ -16,8 +16,14 @@ const GlobalStyle = createGlobalStyle`
         list-style: none;
     }
 
+    a{
+        color: black;
+    }
+
     a:hover{
         color: #6138BD;
+        text-decoration: none;
+        color: black;
     }
 
     .text-primary{

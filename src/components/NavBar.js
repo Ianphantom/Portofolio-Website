@@ -4,9 +4,9 @@ import styled from "styled-components";
 // Import logo
 import Logo from "../images/Logo.png";
 
-const NavBar = () => {
+const NavBar = ({ needToHideNavFoot }) => {
   return (
-    <NavbarContainer>
+    <NavbarContainer className={`${needToHideNavFoot === false ? "" : "hide"}`}>
       <nav className='navbar navbar-expand-lg navbar-light container'>
         <div className='logo'>
           <img src={Logo} alt='Logo Preview' />
@@ -47,6 +47,9 @@ const NavBar = () => {
 };
 
 const NavbarContainer = styled.div`
+  &.hide {
+    display: none;
+  }
   padding: 40px 0px;
   width: 100%;
   .logo img {

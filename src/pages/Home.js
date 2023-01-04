@@ -9,7 +9,8 @@ import HomeContact from "../components/HomeContact";
 import HomeHireMe from "../components/HomeHireMe";
 import HomeProject from "../components/HomeProject";
 
-const Home = () => {
+const Home = ({ setNeedToHideNavFoot }) => {
+  setNeedToHideNavFoot(false);
   return (
     <div>
       <HomeSectionOne />

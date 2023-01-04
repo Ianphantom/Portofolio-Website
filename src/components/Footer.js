@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const Footer = () => {
+const Footer = ({ needToHideNavFoot }) => {
   return (
-    <FooterContainer>
+    <FooterContainer className={`${needToHideNavFoot === false ? "" : "hide"}`}>
       <div className='container'>
         <div>Copyright @ IanFelix 2022. All Rights Reserved</div>
         <div>Privacy Policy | Term of Use</div>
@@ -13,6 +13,9 @@ const Footer = () => {
 };
 
 const FooterContainer = styled.div`
+  &.hide {
+    display: none;
+  }
   background: #11204d;
 
   .container {
