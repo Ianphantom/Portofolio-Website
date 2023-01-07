@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 // Import Pages
 import Home from "./pages/Home";
 import Uiux from "./pages/Uiux";
+import UiuxShifterion from "./pages/UIuxShifterion";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -31,6 +32,13 @@ function App() {
               setNeedToHideNavFoot={setNeedToHideNavFoot}
               needToHideNavFoot={needToHideNavFoot}
             />
+          }
+        />
+        <Route
+          exact
+          path='/uiux/shifterion'
+          element={
+            <UiuxShifterion setNeedToHideNavFoot={setNeedToHideNavFoot} />
           }
         />
       </Routes>

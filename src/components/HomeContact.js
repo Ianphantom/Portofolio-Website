@@ -38,9 +38,11 @@ const HomeContact = () => {
                 />
               </div>
               <div className='input-text send'>
-                <textarea name='message' id='message'>
-                  Pesan Anda
-                </textarea>
+                <textarea
+                  name='message'
+                  id='message'
+                  defaultValue={"Pesan Anda"}
+                ></textarea>
                 <div className='button-send'>
                   <div className='text-icon'>
                     <div className='text text-17 weight-medium'>Send Now</div>

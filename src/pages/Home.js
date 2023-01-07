@@ -8,9 +8,12 @@ import HomeExperience from "../components/HomeExperience";
 import HomeContact from "../components/HomeContact";
 import HomeHireMe from "../components/HomeHireMe";
 import HomeProject from "../components/HomeProject";
+import { useEffect } from "react";
 
 const Home = ({ setNeedToHideNavFoot }) => {
-  setNeedToHideNavFoot(false);
+  useEffect(() => {
+    setNeedToHideNavFoot(false);
+  });
   return (
     <div>
       <HomeSectionOne />
