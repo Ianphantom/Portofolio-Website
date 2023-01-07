@@ -26,7 +26,7 @@ const HomeProject = () => {
         </div>
         <div className='bottom'>
           <div className='rowFlex'>
-            <Link to='/uiux/shifterion'>
+            <Link to='/uiux'>
               <ProjectComponent
                 images={uxdesign}
                 title={"UI/UX Mobile Design"}

@@ -25,8 +25,13 @@ function App() {
         />
         <Route
           exact
-          path='/uiux/:id'
-          element={<Uiux setNeedToHideNavFoot={setNeedToHideNavFoot} />}
+          path='/uiux'
+          element={
+            <Uiux
+              setNeedToHideNavFoot={setNeedToHideNavFoot}
+              needToHideNavFoot={needToHideNavFoot}
+            />
+          }
         />
       </Routes>
       <Footer needToHideNavFoot={needToHideNavFoot} />
