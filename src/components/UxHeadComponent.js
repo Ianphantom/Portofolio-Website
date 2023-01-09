@@ -69,6 +69,12 @@ const HeadContainer = styled.div`
       }
     }
   }
+  @media (max-width: 834px) {
+    .container {
+      flex-direction: column;
+      gap: 60px;
+    }
+  }
 `;
 
 export default UxHeadComponent;
