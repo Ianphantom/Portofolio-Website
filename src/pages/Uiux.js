@@ -174,9 +174,11 @@ const Uiux = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
           <motion.div variants={item} className='desc'>
             {showProject.short}
           </motion.div>
-          <motion.div variants={item} className='more'>
-            More
-          </motion.div>
+          <Link to={showProject.detail}>
+            <motion.div variants={item} className='more'>
+              More
+            </motion.div>
+          </Link>
         </motion.div>
         <div className='bottom space'>
           <div className='buttonContainer back space' onClick={back}>
@@ -197,7 +199,7 @@ const Uiux = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
         <motion.img
           initial={{ y: "100%" }}
           animate={{ y: "0%" }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
           src={windowsWidth <= 834 ? showProject.mobileImg : displayImage}
           key={showProject.index}
           alt='Mockup Preview'

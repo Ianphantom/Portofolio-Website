@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Uiux from "./pages/Uiux";
 import UiuxShifterion from "./pages/UIuxShifterion";
+import ReactDetail from "./pages/ReactDetail";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -40,6 +41,11 @@ function App() {
           element={
             <UiuxShifterion setNeedToHideNavFoot={setNeedToHideNavFoot} />
           }
+        />
+        <Route
+          exact
+          path='/react-creative'
+          element={<ReactDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />}
         />
       </Routes>
       <Footer needToHideNavFoot={needToHideNavFoot} />

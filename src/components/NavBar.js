@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 // Import logo
 import Logo from "../images/Logo.png";
@@ -8,9 +9,11 @@ const NavBar = ({ needToHideNavFoot }) => {
   return (
     <NavbarContainer className={`${needToHideNavFoot === false ? "" : "hide"}`}>
       <nav className='navbar navbar-expand-lg navbar-light container'>
-        <div className='logo'>
-          <img src={Logo} alt='Logo Preview' />
-        </div>
+        <Link to={"/"}>
+          <div className='logo'>
+            <img src={Logo} alt='Logo Preview' />
+          </div>
+        </Link>
         <button
           className='navbar-toggler'
           type='button'

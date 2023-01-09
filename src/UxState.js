@@ -19,8 +19,8 @@ export const UxState = () => {
       url: "/uiux",
       short:
         "Cherry Indian spiced Bolivian rainbow pepper berry appetizer banana bread matcha main course Thai zesty tofu pad thai banana bread simmer basmati peanut butter almond milk oranges cozy cinnamon oatmeal lime mango crisp fall udon noodles chili.",
-      detail: "uiux/detail/shifterion",
       theme: "#E0F5FF",
+      detail: "/uiux/shifterion",
       // theme: "#FFFFFF",
     },
     {
@@ -32,8 +32,8 @@ export const UxState = () => {
       url: "/uiux",
       short:
         "Lemon tahini dressing matcha Caribbean red habanero chocolate peanut butter dip Indian spiced tahini drizzle cherry bomb springtime strawberry tasty cozy butternut balsamic vinaigrette tofu almond milk black beans.",
-      detail: "uiux/detail/hology",
       theme: "#FFEFD6",
+      detail: "/uiux/shifterion",
     },
     {
       index: 3,
@@ -44,8 +44,8 @@ export const UxState = () => {
       url: "/uiux",
       short:
         "Samosa a delicious meal frosted gingerbread bites lemon red lentil soup almond milk chili edamame hummus arugula salad instant pot cilantro lime vinaigrette. Chocolate cookie mint garlic sriracha.",
-      detail: "uiux/detail/haloBeauty",
       theme: "#D6EBE9",
+      detail: "/uiux/shifterion",
     },
   ];
 };

@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ProjectComponent = ({ images, title, desc }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <ComponentContainer>
+    <ComponentContainer data-aos='zoom-out' data-aos-duration='1500'>
       <img src={images} alt='imagePreview' />
       <div className='title'>{title}</div>
       <div className='desc'>
