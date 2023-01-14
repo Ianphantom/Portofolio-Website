@@ -86,6 +86,21 @@ const HeadContainer = styled.div`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .left {
+      .title {
+        font-size: 36px;
+      }
+      .owner {
+        font-size: 18px;
+      }
+    }
+  }
+  @media (max-width: 835px) {
+    flex-direction: column;
+  }
 `;
 
 export default DetailHeadComponent;

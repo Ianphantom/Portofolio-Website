@@ -41,6 +41,7 @@ const DetailPages = () => {
 };
 
 const PagesContainer = styled.div`
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -48,10 +49,10 @@ const PagesContainer = styled.div`
   background: #fafafa;
   border-radius: 6px;
   .desc {
-    font-family: "Inter";
+    font-family: "GT Walsheim Regular", serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 17px;
     line-height: 16px;
     letter-spacing: -0.2px;
     color: #555555;

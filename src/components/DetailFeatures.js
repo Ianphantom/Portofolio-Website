@@ -60,6 +60,7 @@ const DetailFeatures = () => {
 };
 
 const FeaturesContainer = styled.div`
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -7,6 +7,7 @@ import DetailSlideShow from "../components/DetailSlideShow";
 import DetailAccordion from "../components/DetailAccordion";
 import DetailPages from "../components/DetailPages";
 import DetailFeatures from "../components/DetailFeatures";
+import DetailCategory from "../components/DetailCategory";
 
 const ReactDetail = () => {
   const images = [
@@ -81,10 +82,28 @@ const ReactDetail = () => {
           </div>
         </div>
       </div>
-      <div className='componentAccordion'></div>
-      <div className='componentPages'></div>
-      <div className='componenSupport'></div>
-      <div className='componentCategories'></div>
+      <div className='componentCategories'>
+        <div className='container'>
+          <div className='title'>Category</div>
+          <div className='wrapper'>
+            <DetailCategory desc={"Title"} />
+            <DetailCategory desc={"Agency"} />
+            <DetailCategory desc={"Blog"} />
+            <DetailCategory desc={"Brand Guidelines"} />
+            <DetailCategory desc={"Changelog"} />
+            <DetailCategory desc={"Landing Page"} />
+            <DetailCategory desc={"Personal"} />
+          </div>
+          <div className='wrapper'>
+            <DetailCategory desc={"Podcast"} />
+            <DetailCategory desc={"Portofolio"} />
+            <DetailCategory desc={"Splash Pages"} />
+            <DetailCategory desc={"Brand Guidelines"} />
+            <DetailCategory desc={"Changelog"} />
+            <DetailCategory desc={"Landing Page"} />
+          </div>
+        </div>
+      </div>
     </DetailContainer>
   );
 };
@@ -140,6 +159,35 @@ const DetailContainer = styled.div`
           gap: 10px;
         }
       }
+    }
+  }
+  .componentCategories {
+    margin-bottom: 80px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .title {
+      margin-bottom: 41px;
+      /* font-family: "Inter"; */
+      font-family: "GT Walsheim Regular", serif;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -1.2px;
+      margin-bottom: 31px;
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
     }
   }
   @media (max-width: 768px) {
