@@ -5,6 +5,8 @@ import styled from "styled-components";
 import DetailHeadComponent from "../components/DetailHeadComponent";
 import DetailSlideShow from "../components/DetailSlideShow";
 import DetailAccordion from "../components/DetailAccordion";
+import DetailPages from "../components/DetailPages";
+import DetailFeatures from "../components/DetailFeatures";
 
 const ReactDetail = () => {
   const images = [
@@ -54,8 +56,28 @@ const ReactDetail = () => {
             </div>
           </div>
           <div className='right'>
-            <div>Pages</div>
-            <div>Features</div>
+            <div className='pagesContainer'>
+              <div className='pages titleRight'>Pages</div>
+              <div className='wrapper'>
+                <DetailPages />
+                <DetailPages />
+                <DetailPages />
+                <DetailPages />
+              </div>
+              <div className='wrapper'>
+                <DetailPages />
+                <DetailPages />
+              </div>
+            </div>
+            <div className='featuresContainer'>
+              <div className='features titleRight'>Features</div>
+              <div className='featuresWrapper'>
+                <DetailFeatures />
+                <DetailFeatures />
+                <DetailFeatures />
+                <DetailFeatures />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -86,6 +108,38 @@ const DetailContainer = styled.div`
     }
     .left {
       width: 100%;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      .titleRight {
+        font-family: "GT Walsheim Regular", serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.3px;
+        color: #222222;
+        margin-bottom: 21px;
+      }
+      .pagesContainer {
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 8px;
+        }
+      }
+      .featuresContainer {
+        .featuresWrapper {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
     }
   }
   @media (max-width: 768px) {

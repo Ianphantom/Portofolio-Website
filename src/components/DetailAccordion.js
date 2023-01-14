@@ -10,7 +10,7 @@ const DetailAccordion = ({ title, desc, link }) => {
         <div className='myProject'>{title}</div>
         <svg
           style={{
-            transform: `rotate(${accordionStatus == true ? "45deg" : "0"})`,
+            transform: `rotate(${accordionStatus === true ? "45deg" : "0"})`,
           }}
           width='24'
           height='25'
