@@ -14,7 +14,7 @@ import hypeandplay from "../images/hypeandplay.png";
 
 const HomeProject = () => {
   return (
-    <ProjectContainer>
+    <ProjectContainer id='work'>
       <div className='container'>
         <div className='head'>
           <div className='title text-36 text-color-2 weight-bold playfair'>

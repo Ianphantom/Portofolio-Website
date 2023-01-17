@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const HomeHireMe = () => {
   return (
-    <HireContainer>
+    <HireContainer id='service'>
       <div className='container'>
         <div className='title'>Want to Work Together!</div>
         <div className='desc'>I’m available for freelance work.</div>

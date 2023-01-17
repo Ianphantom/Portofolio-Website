@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const HomeContact = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id='contact'>
       <div className='container'>
         <div className='head'>
           <div className='title text-36 text-color-2 weight-bold playfair'>

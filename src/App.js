@@ -27,6 +27,11 @@ function App() {
         />
         <Route
           exact
+          path='/home/:id'
+          element={<Home setNeedToHideNavFoot={setNeedToHideNavFoot} />}
+        />
+        <Route
+          exact
           path='/uiux'
           element={
             <Uiux

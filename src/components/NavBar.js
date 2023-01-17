@@ -62,6 +62,11 @@ const NavBar = ({ needToHideNavFoot }) => {
 };
 
 const NavbarContainer = styled.div`
+  background-color: white;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   &.hide {
     display: none;
   }
@@ -76,7 +81,7 @@ const NavbarContainer = styled.div`
     gap: 25px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 835px) {
     padding: 10px 0px;
   }
 `;
