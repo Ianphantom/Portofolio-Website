@@ -7,7 +7,7 @@ import Awardee from "../images/award.png";
 
 const HomeSectionTwo = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id='about'>
       <div className='container'>
         <div className='row first'>
           <div className='col-md-6'>

@@ -27,21 +27,33 @@ const NavBar = ({ needToHideNavFoot }) => {
         </button>
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav text-center ml-auto'>
-            <a href='http://' className='text-17 weight-medium text-color-2'>
+            <Link to='/' className='text-17 weight-medium text-color-2'>
               Home
-            </a>
-            <a href='http://' className='text-17 weight-medium text-color-2'>
+            </Link>
+            <Link
+              to='/home/about'
+              className='text-17 weight-medium text-color-2'
+            >
               About
-            </a>
-            <a href='http://' className='text-17 weight-medium text-color-2'>
+            </Link>
+            <Link
+              to='/home/service'
+              className='text-17 weight-medium text-color-2'
+            >
               Service
-            </a>
-            <a href='http://' className='text-17 weight-medium text-color-2'>
+            </Link>
+            <Link
+              to='/home/work'
+              className='text-17 weight-medium text-color-2'
+            >
               Works
-            </a>
-            <a href='http://' className='text-17 weight-medium text-color-2'>
+            </Link>
+            <Link
+              to='/home/contact'
+              className='text-17 weight-medium text-color-2'
+            >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

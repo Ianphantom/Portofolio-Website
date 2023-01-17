@@ -5,10 +5,12 @@ import { motion } from "framer-motion";
 
 // Import Images
 import Experience from "../images/experience.png";
+import Landing1 from "../images/landing1.png";
+import Landing2 from "../images/landing2.png";
 
 const HomeSectionOne = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id='home'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>
@@ -38,7 +40,7 @@ const HomeSectionOne = () => {
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
-                  src='http://tanshcreative.com/modak-st-preview/modak/assets/images/photography_img1.jpg'
+                  src={Landing1}
                   alt='img Preview'
                 />
               </div>
@@ -47,7 +49,7 @@ const HomeSectionOne = () => {
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
-                  src='http://tanshcreative.com/modak-st-preview/modak/assets/images/photography_img4.jpg'
+                  src={Landing2}
                   alt='Img Preview'
                 />
               </div>
