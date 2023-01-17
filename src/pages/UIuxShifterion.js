@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import UxHeadComponent from "../components/UxHeadComponent";
 import UxFlyerComponent from "../components/UXFlyerComponent";
 import UxExplanation from "../components/UxExplanation";
+import UxPrototipe from "../components/UxPrototipe";
 
 // import Images
 import fyler from "../images/teenagrFlyer.png";
@@ -86,15 +87,11 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
         Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
         ut sem vitae risus tristique posuere.`}
         />
-        <div className='showImages'>
-          <div
-            className='imageContainer'
-            data-aos='zoom-in'
-            data-aos-duration='1000'
-          >
-            <img src={shifterion4} alt='Shifterion1' />
-          </div>
-        </div>
+        {/* ini screen prototipe */}
+        <UxPrototipe
+          imgscreen={shifterion4}
+          src='https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621'
+        />
         <UxExplanation
           title={`The Result.`}
           desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

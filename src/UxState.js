@@ -18,9 +18,11 @@ export const UxState = () => {
       mobileImg: shifterionMobile,
       url: "/uiux",
       short:
-        "Cherry Indian spiced Bolivian rainbow pepper berry appetizer banana bread matcha main course Thai zesty tofu pad thai banana bread simmer basmati peanut butter almond milk oranges cozy cinnamon oatmeal lime mango crisp fall udon noodles chili.",
+        "TEENAGR is a meditation application to improve emotional regulation and self-acceptance in adolescents in forming their idetity. This app won the gold medal at Unesa X-Project : Shifterion UI/UX Design Competition",
       theme: "#E0F5FF",
       detail: "/uiux/shifterion",
+      prototipe:
+        "https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621",
       // theme: "#FFFFFF",
     },
     {
@@ -31,9 +33,11 @@ export const UxState = () => {
       mobileImg: shifterionMobile,
       url: "/uiux",
       short:
-        "Lemon tahini dressing matcha Caribbean red habanero chocolate peanut butter dip Indian spiced tahini drizzle cherry bomb springtime strawberry tasty cozy butternut balsamic vinaigrette tofu almond milk black beans.",
+        "A digital learning platform to encourage exploratory and exploitative behavior to support the formation of ambidextrous leaders. This app won the gold medal at Hology 4.0 UI/UX Design Competition",
       theme: "#FFEFD6",
       detail: "/uiux/shifterion",
+      prototipe:
+        "https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621",
     },
     {
       index: 3,
@@ -46,6 +50,8 @@ export const UxState = () => {
         "Samosa a delicious meal frosted gingerbread bites lemon red lentil soup almond milk chili edamame hummus arugula salad instant pot cilantro lime vinaigrette. Chocolate cookie mint garlic sriracha.",
       theme: "#D6EBE9",
       detail: "/uiux/shifterion",
+      prototipe:
+        "https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621",
     },
   ];
 };

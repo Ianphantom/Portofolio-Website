@@ -66,6 +66,10 @@ const Uiux = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
     setShowProject(myProject[currentNumber]);
     setDisplayImage(showProject.mainImg);
     setIndexProject(showProject.index);
+    window.scroll({
+      top: 0,
+      left: 0,
+    });
   }, [
     showProject,
     indexProject,
