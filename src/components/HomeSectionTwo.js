@@ -16,20 +16,19 @@ const HomeSectionTwo = () => {
           <div className='col-md-6 section2'>
             <div className='h1 text-36 weight-bold playfair'>About Me</div>
             <div className='h2 text-14 weight-bold'>
-              Subheading or information goes here
+              Ian Felix Jonathan Simanjuntak
             </div>
 
             <div className='desc1 text-17 weight-medium'>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              Front-end developer who cares deeply about user experience.
+              Serious passion for UI design and new technologies.
             </div>
 
             <div className='desc2 text-17 weight-regular'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat duis aute irure dolor in
-              reprehende.
+              Designed and developed web applications across multiple APIs,
+              third-party integrations and databases. Passionate and hardworking
+              with penchant for developing customized interfaces that factor in
+              unique demands for accessibility, reachability and security.
             </div>
             <div className='row section3'>
               <div className='col-md-4 gambarAward'>

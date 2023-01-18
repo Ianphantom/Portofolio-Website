@@ -59,11 +59,11 @@ const HomeSectionOne = () => {
         <div className='row experience'>
           <div className='col-md-10'>
             <div className='text-24 weight-regular desc'>
-              I help our clients create{" "}
-              <span className='weight-medium'>brands</span>, build digital{" "}
-              <span className='weight-medium'>products</span> and
-              <span className='weight-medium'> services</span>, innovate, find
-              opportunities and validate ideas.
+              I'm a software engineer with a passion for creating{" "}
+              <span className='weight-medium'>functional </span> and{" "}
+              <span className='weight-medium'>aesthetically </span> pleasing{" "}
+              <span className='weight-medium'> digital products</span> that meet
+              all the customer's need.
             </div>
             <div className='follow'>
               <div className='textDesc text-17 weight-medium'>Follow Me On</div>
