@@ -21,7 +21,7 @@ const HomeProject = () => {
             Some Project
           </div>
           <div className='desc text-14 weight-bold text-subtitle'>
-            Lorem ipsum dolor sit amet.
+            Featured Project
           </div>
         </div>
         <div className='bottom'>
@@ -30,21 +30,36 @@ const HomeProject = () => {
               <ProjectComponent
                 images={uxdesign}
                 title={"UI/UX Mobile Design"}
+                desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
               />
             </Link>
 
-            <ProjectComponent images={reactCreative} title={"React Creative"} />
+            <ProjectComponent
+              images={reactCreative}
+              title={"React Creative"}
+              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+            />
             <ProjectComponent
               images={javascriptCreative}
               title={"Javascript Creative"}
+              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
             />
           </div>
           <div className='rowFlex'>
-            <ProjectComponent images={realty} title={"Realty Property"} />
-            <ProjectComponent images={pertamina} title={"Pertamina Cybtr"} />
+            <ProjectComponent
+              images={realty}
+              title={"Realty Property"}
+              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+            />
+            <ProjectComponent
+              images={pertamina}
+              title={"Pertamina Cybtr"}
+              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+            />
             <ProjectComponent
               images={hypeandplay}
               title={"HypeAndPlay Marketplace"}
+              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
             />
           </div>
         </div>

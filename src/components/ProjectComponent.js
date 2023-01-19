@@ -11,10 +11,7 @@ const ProjectComponent = ({ images, title, desc }) => {
     <ComponentContainer data-aos='zoom-out' data-aos-duration='1500'>
       <img src={images} alt='imagePreview' />
       <div className='title'>{title}</div>
-      <div className='desc'>
-        Aut cupiditate expedita dolor eveniet a autem rerum ut dicta.
-        Exercitationem eum suscipit quo. Est fugiat ducimus aut saepe.
-      </div>
+      <div className='desc'>{desc}</div>
     </ComponentContainer>
   );
 };

@@ -39,8 +39,8 @@ const HomeSectionTwo = () => {
                   Gold Medal in Smart City Gemastik 14
                 </div>
                 <div className='text-17 weight-regular'>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                  autodit and fugit.
+                  integrated smart system to create smart transportation, smart
+                  building and smart goverment
                 </div>
               </div>
             </div>

@@ -13,7 +13,7 @@ const HomeExperience = () => {
             My Experience
           </div>
           <div className='sub-title text-14 weight-bold text-subtitle'>
-            Subheading or information goes here
+            Where I’ve Worked
           </div>
         </div>
         <div className='bottom'>
@@ -23,31 +23,31 @@ const HomeExperience = () => {
                 year='2022 - Present'
                 role='Web Developer'
                 company='HypeAndPlay Indonesia'
-                brief='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+                brief='Worked with a team of three developer to build a e-commerce platform for hypeandplay, a hobby shop originating from Surabaya'
               />
             </div>
             <div className='col-md-6'>
               <EachExperience
-                year='2015 - Present'
+                year='2020-2021'
                 role='Fullstack Developer Intern'
                 company='CV Edukasi Tutor Indonesia'
-                brief='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+                brief='Developed and shipped highly interactive web applications for event ticket booking system for EducatorID'
               />
             </div>
             <div className='col-md-6'>
               <EachExperience
-                year='2015 - Present'
+                year='2021-2021'
                 role='Fullstack Developer'
                 company='PT. Pertamina Persero'
-                brief='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+                brief='Architected and implemented tracking of Pertamina tanker cars and the time of entry and exit of the area'
               />
             </div>
             <div className='col-md-6'>
               <EachExperience
-                year='2015 - Present'
+                year='2021-2021'
                 role='IT Department Leader'
                 company='RuangHR'
-                brief='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+                brief='Responsible for planning out projects and responsible for managing and overseeing the work of IT Team'
               />
             </div>
             <div className='col-md-6'>
@@ -55,7 +55,7 @@ const HomeExperience = () => {
                 year='2015 - Present'
                 role='Fullstack Developer Intern'
                 company='JasaBee Indonesia'
-                brief='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+                brief='Built and shipped a management information system related to the mechanism for reporting daily tasks for each department'
               />
             </div>
           </div>

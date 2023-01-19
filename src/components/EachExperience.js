@@ -37,6 +37,16 @@ const EachExperienceContainer = styled.div`
         background: #6138bd;
       }
     }
+    .right {
+      .role {
+        color: black;
+      }
+
+      .brief {
+        font-weight: 500;
+        color: rgba(3, 14, 47, 0.7);
+      }
+    }
   }
   .left {
     width: fit-content;
