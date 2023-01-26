@@ -33,32 +33,30 @@ const HomeProject = () => {
                 desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
               />
             </Link>
-
             <ProjectComponent
-              images={reactCreative}
-              title={"React Creative"}
-              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+              images={hypeandplay}
+              title={"HypeAndPlay Marketplace"}
+              desc='An ecommerce platform for hobby shopping from surabaya. This platform is currently on develop'
             />
-            <ProjectComponent
-              images={javascriptCreative}
-              title={"Javascript Creative"}
-              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
-            />
-          </div>
-          <div className='rowFlex'>
             <ProjectComponent
               images={realty}
               title={"Realty Property"}
-              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+              desc='The smartest and most personalized homebuying experience customized by your style, taste and goals to find your home.'
             />
             <ProjectComponent
               images={pertamina}
               title={"Pertamina Cybtr"}
-              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+              desc='Information Management System for Pertamina to track their tankers. This platform is based on Progressive Web App'
+            />
+
+            <ProjectComponent
+              images={reactCreative}
+              title={"React Creative"}
+              desc='A fun project to build website using ReactJS and learn about state management using Redux'
             />
             <ProjectComponent
-              images={hypeandplay}
-              title={"HypeAndPlay Marketplace"}
+              images={javascriptCreative}
+              title={"Javascript Creative"}
               desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
             />
           </div>
@@ -80,8 +78,9 @@ const ProjectContainer = styled.div`
   .bottom {
     .rowFlex {
       margin-top: 64px;
-      display: flex;
-      justify-content: space-between;
+      display: inline-grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-evenly;
       gap: 80px;
     }
   }
@@ -89,7 +88,7 @@ const ProjectContainer = styled.div`
   @media (max-width: 1000px) {
     .bottom {
       .rowFlex {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
       }
     }
   }
