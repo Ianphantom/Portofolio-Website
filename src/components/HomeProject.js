@@ -57,7 +57,7 @@ const HomeProject = () => {
             <ProjectComponent
               images={javascriptCreative}
               title={"Javascript Creative"}
-              desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
+              desc='A fun project to build website using Javascript, GSAP for animation, Rest API and object-oriented with JS'
             />
           </div>
         </div>
