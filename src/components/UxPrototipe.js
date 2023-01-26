@@ -8,7 +8,6 @@ const UxPrototipe = ({ imgscreen, src }) => {
         width='800'
         height='450'
         src={`https://www.figma.com/embed?embed_host=share&url=${src}`}
-        allowfullscreen
         key={src}
         title='prototipe'
       ></iframe>

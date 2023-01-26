@@ -47,7 +47,7 @@ export const UxState = () => {
       mobileImg: shifterionMobile,
       url: "/uiux",
       short:
-        "Samosa a delicious meal frosted gingerbread bites lemon red lentil soup almond milk chili edamame hummus arugula salad instant pot cilantro lime vinaigrette. Chocolate cookie mint garlic sriracha.",
+        "Digtal platform to find your favorite barbershop near you. This application was designed by observing post-pandemic changes in barbershop customers' behaviors",
       theme: "#D6EBE9",
       detail: "/uiux/shifterion",
       prototipe:
