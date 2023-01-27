@@ -32,19 +32,13 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
       <div className='container explanation'>
         <UxExplanation
           title={`The Client.`}
-          desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-        ut sem vitae risus tristique posuere.`}
+          desc={`Teenagers often doubt or even feel unworthy of their own success and achievements. 
+          They actually felt it was just a coincidence. Besides that, They also try to create a positive image of themselves at all times.
+          Other problem that teenagers face is susceptible to depression and anger which refers to juvenile delinquency and difficulties in academics`}
         />
         <UxExplanation
           title={`The Problem.`}
-          desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-        ut sem vitae risus tristique posuere.`}
+          desc={`Low emotion regulation ability can make adolescents not think about the consequences of a decision so that they make the wrong decision.`}
         />
         <UxExplanation
           title={`The Solution.`}
