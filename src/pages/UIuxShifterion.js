@@ -42,11 +42,16 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
         />
         <UxExplanation
           title={`The Solution.`}
-          desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-        ut sem vitae risus tristique posuere.`}
+          desc={`
+          Meditation helps adjust needs, feelings and values ​​to suit a particular situation. Thus increasing the emotional intelligence of adolescents.
+          Meditation creates psychological well-being. With this, teenagers are aware of themselves so they are able to recognize each other's strengths and weaknesses
+          Meditation also helps youth to live in character. So that they have complete awareness and give full attention to themselves and daily life so that they are able to regulate the environment and control their activities and emotions.
+          `}
+        />
+        <UxExplanation
+          title={`The Process.`}
+          desc={`We compiled all needs analysis for this platform using the user centered design method: Double Diamond. 
+          The stages we have carried out are conducting in-depth interviews, online surveys, competitive research, making affinity maps, creating user personas, creating empathy maps, user journeys, then creating information architectures, user flow diagrams, mockups and prototypes.`}
         />
         <div className='showImages'>
           <div
@@ -74,7 +79,7 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
           </div>
         </div>
         <UxExplanation
-          title={`The Process.`}
+          title={`The Result.`}
           desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         varius enim in eros elementum tristique. Duis cursus, mi quis viverra
         ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
