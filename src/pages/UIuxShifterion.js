@@ -79,12 +79,8 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
           </div>
         </div>
         <UxExplanation
-          title={`The Result.`}
-          desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-        ut sem vitae risus tristique posuere.`}
+          title={`The Design Process.`}
+          desc={`Develop is a stage in the application design development process that has the goal of compiling solutions to the problem points that have been defined in the previous stages. This stage requires a brainstorming session to collect various ideas that have the potential to solve existing problems (divergent). After the ideas are collected, these ideas go through a selection process to choose which ideas can be prioritized (convergent). This stage was developed through the preparation of information architecture as well as user flow diagrams, wireframes and Hi-Fi.`}
         />
         {/* ini screen prototipe */}
         <UxPrototipe
