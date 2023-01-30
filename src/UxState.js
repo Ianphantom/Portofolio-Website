@@ -20,7 +20,7 @@ export const UxState = () => {
       short:
         "TEENAGR is a meditation application to improve emotional regulation and self-acceptance in adolescents in forming their idetity. This app won the gold medal at Unesa X-Project : Shifterion UI/UX Design Competition",
       theme: "#E0F5FF",
-      detail: "/uiux/shifterion",
+      detail: "/uiux/teenagr",
       prototipe:
         "https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621",
       // theme: "#FFFFFF",
@@ -35,7 +35,7 @@ export const UxState = () => {
       short:
         "A digital learning platform to encourage exploratory and exploitative behavior to support the formation of ambidextrous leaders. This app won the gold medal at Hology 4.0 UI/UX Design Competition",
       theme: "#FFEFD6",
-      detail: "/uiux/shifterion",
+      detail: "/uiux/fluency",
       prototipe:
         "https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621",
     },

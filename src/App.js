@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Uiux from "./pages/Uiux";
 import UiuxShifterion from "./pages/UIuxShifterion";
+import UIuxHology from "./pages/UIuxHology";
 import ReactDetail from "./pages/ReactDetail";
 
 // Import Components
@@ -42,10 +43,15 @@ function App() {
         />
         <Route
           exact
-          path='/uiux/shifterion'
+          path='/uiux/teenagr'
           element={
             <UiuxShifterion setNeedToHideNavFoot={setNeedToHideNavFoot} />
           }
+        />
+        <Route
+          exact
+          path='/uiux/fluency'
+          element={<UIuxHology setNeedToHideNavFoot={setNeedToHideNavFoot} />}
         />
         <Route
           exact
