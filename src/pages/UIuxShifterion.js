@@ -89,11 +89,10 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
         />
         <UxExplanation
           title={`The Result.`}
-          desc={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-        ut sem vitae risus tristique posuere.`}
+          desc={`At the user testing stage, we use three methods, namely Heuristic Evaluation (for internal developers), cognitive walkthrough and usability testing (for external users). 
+          The results of the test using the heuristic evaluation method, the TEENAGR application has succeeded in fulfilling all the principles that must be assigned to the application of the 10 principles in the heuristic evaluation method.
+          Meanwhile, based on the test results using the usability testing method, from the 8 stages proposed and the scenarios that have been given, the user's effectiveness time in accessing each stage is 8.85 seconds/stage with an average user time to access these functions is 1-2 minutes for the total stages and with a completion rate of 96.78%. The stage that takes a long time to do is the stage for sharing/asking questions on the forum.
+          Of all the main functions that have been tested, 100% of users are satisfied and want to use the TEENAGR application.`}
         />
       </div>
     </ProjectContainer>
