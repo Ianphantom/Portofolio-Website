@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Uiux from "./pages/Uiux";
 import UiuxShifterion from "./pages/UIuxShifterion";
 import UIuxHology from "./pages/UIuxHology";
+import UIuxHaloBeauty from "./pages/UIuxHaloBeauty";
 import ReactDetail from "./pages/ReactDetail";
 
 // Import Components
@@ -52,6 +53,13 @@ function App() {
           exact
           path='/uiux/fluency'
           element={<UIuxHology setNeedToHideNavFoot={setNeedToHideNavFoot} />}
+        />
+        <Route
+          exact
+          path='/uiux/beauty'
+          element={
+            <UIuxHaloBeauty setNeedToHideNavFoot={setNeedToHideNavFoot} />
+          }
         />
         <Route
           exact

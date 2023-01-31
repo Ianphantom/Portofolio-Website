@@ -49,9 +49,9 @@ export const UxState = () => {
       short:
         "Digtal platform to find your favorite barbershop near you. This application was designed by observing post-pandemic changes in barbershop customers' behaviors",
       theme: "#D6EBE9",
-      detail: "/uiux/shifterion",
+      detail: "/uiux/beauty",
       prototipe:
-        "https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621",
+        "https://www.figma.com/proto/B7QMpeRwGNEYdDBzr8mazY/HaloBeauty?page-id=1%3A3&node-id=65%3A541&viewport=280%2C179%2C0.12&scaling=scale-down&starting-point-node-id=65%3A541&show-proto-sidebar=1",
     },
   ];
 };
