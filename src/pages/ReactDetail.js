@@ -9,6 +9,8 @@ import DetailPages from "../components/DetailPages";
 import DetailFeatures from "../components/DetailFeatures";
 import DetailCategory from "../components/DetailCategory";
 
+import ScrollTop from "../components/ScrollTop";
+
 const ReactDetail = () => {
   const images = [
     "https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png",
@@ -16,95 +18,102 @@ const ReactDetail = () => {
     "https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png",
   ];
   return (
-    <DetailContainer>
-      <div className='container'>
-        <DetailHeadComponent
-          title={"Template for SaaS Companies"}
-          desc={
-            "Showcase your startup with this light, powerful, fully responsive website template, blog included."
-          }
-          live={"#"}
-          source={"#"}
-        />
-      </div>
-
-      <DetailSlideShow images={images} />
-      <div className='container'>
-        <div className='detail'>
-          <div className='left'>
-            <div className='title'>My Project</div>
-            <div className='accordionContainer'>
-              <DetailAccordion
-                title='Ignite Website'
-                desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
-                link={"/detail"}
-              />
-              <DetailAccordion
-                title='Ignite Website'
-                desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
-                link={"/detail"}
-              />
-              <DetailAccordion
-                title='Ignite Website'
-                desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
-                link={"/detail"}
-              />
-              <DetailAccordion
-                title='Ignite Website'
-                desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
-                link={"/detail"}
-              />
-            </div>
-          </div>
-          <div className='right'>
-            <div className='pagesContainer'>
-              <div className='pages titleRight'>Pages</div>
-              <div className='wrapper'>
-                <DetailPages />
-                <DetailPages />
-                <DetailPages />
-                <DetailPages />
-              </div>
-              <div className='wrapper'>
-                <DetailPages />
-                <DetailPages />
-              </div>
-            </div>
-            <div className='featuresContainer'>
-              <div className='features titleRight'>Features</div>
-              <div className='featuresWrapper'>
-                <DetailFeatures />
-                <DetailFeatures />
-                <DetailFeatures />
-                <DetailFeatures />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className='componentCategories'>
+    <>
+      <ScrollTop />
+      <DetailContainer>
         <div className='container'>
-          <div className='title'>Category</div>
-          <div className='wrapper'>
-            <DetailCategory desc={"Title"} />
-            <DetailCategory desc={"Agency"} />
-            <DetailCategory desc={"Blog"} />
-            <DetailCategory desc={"Brand Guidelines"} />
-            <DetailCategory desc={"Changelog"} />
-            <DetailCategory desc={"Landing Page"} />
-            <DetailCategory desc={"Personal"} />
-          </div>
-          <div className='wrapper'>
-            <DetailCategory desc={"Podcast"} />
-            <DetailCategory desc={"Portofolio"} />
-            <DetailCategory desc={"Splash Pages"} />
-            <DetailCategory desc={"Brand Guidelines"} />
-            <DetailCategory desc={"Changelog"} />
-            <DetailCategory desc={"Landing Page"} />
+          <DetailHeadComponent
+            title={"The React Creative and Redux"}
+            desc={
+              "A fun project to build website using ReactJS and learn about state management using Redux"
+            }
+            live={"#"}
+            source={
+              "https://github.com/Ianphantom/Exercise-Website-React-Creative"
+            }
+          />
+        </div>
+
+        <DetailSlideShow images={images} />
+        <div className='container'>
+          <div className='detail'>
+            <div className='left'>
+              <div className='title'>My Project</div>
+              <div className='accordionContainer'>
+                <DetailAccordion
+                  title='React Music Player'
+                  desc={`A Web based application that allows you to listen to music files over the internet.
+                  Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. 
+                  Appear allows you to animate any layer as you scroll past it (as it enters the viewport). 
+                  The Appear effect allows you to animate layers as you scroll past them. 
+                  See a short summary of the available properties below.`}
+                  link={"/detail"}
+                />
+                <DetailAccordion
+                  title='Capture Landing Page'
+                  desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
+                  link={"/detail"}
+                />
+                <DetailAccordion
+                  title='Ignite Catalog'
+                  desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
+                  link={"/detail"}
+                />
+              </div>
+            </div>
+            <div className='right'>
+              <div className='pagesContainer'>
+                <div className='pages titleRight'>Topic</div>
+                <div className='wrapper'>
+                  <DetailPages desc={"React"} />
+                  <DetailPages desc={"API"} />
+                  <DetailPages desc={"Async"} />
+                  <DetailPages desc={"Redux"} />
+                </div>
+                <div className='wrapper'>
+                  <DetailPages desc={"Hooks"} />
+                  <DetailPages desc={"JSX"} />
+                </div>
+              </div>
+              <div className='featuresContainer'>
+                <div className='features titleRight'>Features</div>
+                <div className='featuresWrapper'>
+                  <DetailFeatures desc={"React"} />
+                  <DetailFeatures desc={"React Router"} />
+                  <DetailFeatures desc={"Styled Components"} />
+                  <DetailFeatures desc={"Framer Motion"} />
+                  <DetailFeatures desc={"Intersection Observer"} />
+                  <DetailFeatures desc={"Redux"} />
+                  <DetailFeatures desc={"Thunk"} />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </DetailContainer>
+        <div className='componentCategories'>
+          <div className='container'>
+            <div className='title'>Category</div>
+            <div className='wrapper'>
+              <DetailCategory desc={"JSX"} />
+              <DetailCategory desc={"Props"} />
+              <DetailCategory desc={"Event"} />
+              <DetailCategory desc={"State"} />
+              <DetailCategory desc={"State Lifting"} />
+              <DetailCategory desc={"React Hooks"} />
+              <DetailCategory desc={"Styled Component"} />
+            </div>
+            <div className='wrapper'>
+              <DetailCategory desc={"Animation"} />
+              <DetailCategory desc={"Async"} />
+              <DetailCategory desc={"Axios"} />
+              <DetailCategory desc={"Redux"} />
+              <DetailCategory desc={"Fetching"} />
+              <DetailCategory desc={"Mobile Styling"} />
+            </div>
+          </div>
+        </div>
+      </DetailContainer>
+    </>
   );
 };
 

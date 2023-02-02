@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const DetailPages = () => {
+const DetailPages = ({ desc }) => {
   return (
     <PagesContainer>
       <svg
@@ -35,7 +35,7 @@ const DetailPages = () => {
           </clipPath>
         </defs>
       </svg>
-      <div className='desc'>Title</div>
+      <div className='desc'>{desc}</div>
     </PagesContainer>
   );
 };

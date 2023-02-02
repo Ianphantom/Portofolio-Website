@@ -48,12 +48,13 @@ const HomeProject = () => {
               title={"Pertamina Cybtr"}
               desc='Information Management System for Pertamina to track their tankers. This platform is based on Progressive Web App'
             />
-
-            <ProjectComponent
-              images={reactCreative}
-              title={"React Creative"}
-              desc='A fun project to build website using ReactJS and learn about state management using Redux'
-            />
+            <Link to='/react-creative'>
+              <ProjectComponent
+                images={reactCreative}
+                title={"React Creative"}
+                desc='A fun project to build website using ReactJS and learn about state management using Redux'
+              />
+            </Link>
             <ProjectComponent
               images={javascriptCreative}
               title={"Javascript Creative"}

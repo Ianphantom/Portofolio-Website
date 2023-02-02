@@ -11,7 +11,9 @@ const DetailHeadComponent = ({ title, desc, live, source }) => {
       <div className='right'>
         <div className='top'>{desc}</div>
         <div className='bottom'>
-          <div className='source'>Source Code</div>
+          <a href={source} target='_blank' rel='noopener noreferrer'>
+            <div className='source'>Source Code</div>
+          </a>
           <div className='live'>Live Preview</div>
         </div>
       </div>
