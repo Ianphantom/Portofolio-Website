@@ -49,7 +49,7 @@ const DetailAccordion = ({ title, desc, link }) => {
       {accordionStatus && (
         <>
           <div className='descAccordion'>{desc}</div>
-          <div className='descAccordion learnMore'>Learn More</div>
+          <div className='descAccordion learnMore'>Visit Website</div>
         </>
       )}
     </AccordionContainer>

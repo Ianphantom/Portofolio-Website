@@ -43,10 +43,10 @@ const ReactDetail = () => {
                 <DetailAccordion
                   title='React Music Player'
                   desc={`A Web based application that allows you to listen to music files over the internet.
-                  Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. 
-                  Appear allows you to animate any layer as you scroll past it (as it enters the viewport). 
-                  The Appear effect allows you to animate layers as you scroll past them. 
-                  See a short summary of the available properties below.`}
+                  I used music data from chillhop.com and it is completly free to use. There are so many features that you can explore on this app.
+                  You can play, rewind, skip to the next or previos song, jump into specific time for each song.
+                  There is also a library section where you can see all the songs that available.
+                  This is also completely mobile friendly`}
                   link={"/detail"}
                 />
                 <DetailAccordion
