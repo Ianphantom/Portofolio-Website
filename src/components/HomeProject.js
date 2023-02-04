@@ -55,11 +55,13 @@ const HomeProject = () => {
                 desc='A fun project to build website using ReactJS and learn about state management using Redux'
               />
             </Link>
-            <ProjectComponent
-              images={javascriptCreative}
-              title={"Javascript Creative"}
-              desc='A fun project to build website using Javascript, GSAP for animation, Rest API and object-oriented with JS'
-            />
+            <Link to='/javascript-creative'>
+              <ProjectComponent
+                images={javascriptCreative}
+                title={"Javascript Creative"}
+                desc='A fun project to build website using Javascript, GSAP for animation, Rest API and object-oriented with JS'
+              />
+            </Link>
           </div>
         </div>
       </div>

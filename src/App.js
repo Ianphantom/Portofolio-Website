@@ -9,6 +9,7 @@ import UiuxShifterion from "./pages/UIuxShifterion";
 import UIuxHology from "./pages/UIuxHology";
 import UIuxHaloBeauty from "./pages/UIuxHaloBeauty";
 import ReactDetail from "./pages/ReactDetail";
+import JavaScriptDetail from "./pages/JavaScriptDetail";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -65,6 +66,13 @@ function App() {
           exact
           path='/react-creative'
           element={<ReactDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />}
+        />
+        <Route
+          exact
+          path='/javascript-creative'
+          element={
+            <JavaScriptDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />
+          }
         />
       </Routes>
       <Footer needToHideNavFoot={needToHideNavFoot} />
