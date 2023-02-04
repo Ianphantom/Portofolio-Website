@@ -51,7 +51,12 @@ const ReactDetail = () => {
                 />
                 <DetailAccordion
                   title='Capture Landing Page'
-                  desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
+                  desc={` A landing page that build to learn about framer-motion and intersection observer to make a fancy animation.
+                  There is a lot of animation such as wave animation, scroll animation, page transition, accordion menu and etc.
+                  there is three main page on this landing page, about us, our work, and contact us.
+                  This is also completely mobile friendly. Feel free to check the website
+
+                  `}
                   link={"/detail"}
                 />
                 <DetailAccordion
