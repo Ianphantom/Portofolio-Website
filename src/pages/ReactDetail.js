@@ -55,13 +55,16 @@ const ReactDetail = () => {
                   There is a lot of animation such as wave animation, scroll animation, page transition, accordion menu and etc.
                   there is three main page on this landing page, about us, our work, and contact us.
                   This is also completely mobile friendly. Feel free to check the website
-
                   `}
                   link={"/detail"}
                 />
                 <DetailAccordion
                   title='Ignite Catalog'
-                  desc={`There are two types of scroll effects: Speed and Appear. Speed allows you to define the scrolling speed of a layer, which allows to you to design parallax effects. Appear allows you to animate any layer as you scroll past it (as it enters the viewport). The Appear effect allows you to animate layers as you scroll past them. See a short summary of the available properties below.`}
+                  desc={`A game catalog website. The data used for this website is fetched from https://api.rawg.io/api.
+                  in this project i learn about async process with axios, besides that i also learn about how to use react-redux for state management.
+                  with this app, you can search information about game that you want. Also with the help of framer motion, there is also a fancy animation for every user action.
+                  This is also completely mobile friendly. Feel free to check the website
+                  `}
                   link={"/detail"}
                 />
               </div>
