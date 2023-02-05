@@ -51,28 +51,25 @@ const JavaScriptDetail = () => {
                 />
                 <DetailAccordion
                   title='Beat Maker'
-                  desc={` A landing page that build to learn about framer-motion and intersection observer to make a fancy animation.
-                  There is a lot of animation such as wave animation, scroll animation, page transition, accordion menu and etc.
-                  there is three main page on this landing page, about us, our work, and contact us.
-                  This is also completely mobile friendly. Feel free to check the website
+                  desc={`A simple web based application for those who comes up with melodies, drum patterns and loops.
+                  there are three part of sound that you can set. They are kick, snare and hihat. For each of them you can 
+                  choose what kind of instrument you want to use. For example, kick have 3 different sound, classic kick, 808 kick and heavy kick.
+                  You can also set the bpm to a number that you want. Because this is a project to learn javascript, i was not
+                  implementing the mobile view. Feel free to check the website
                   `}
                   link={"/detail"}
                 />
                 <DetailAccordion
                   title='Travel Project Website'
-                  desc={`A game catalog website. The data used for this website is fetched from https://api.rawg.io/api.
-                  in this project i learn about async process with axios, besides that i also learn about how to use react-redux for state management.
-                  with this app, you can search information about game that you want. Also with the help of framer motion, there is also a fancy animation for every user action.
-                  This is also completely mobile friendly. Feel free to check the website
+                  desc={`This project is to learn how to make fancy animation on a website. I use ScrollMagic and GSAP for the animation.
+                  Because this is a project to learn javascript, i was not implementing the mobile view. Feel free to check the website
                   `}
                   link={"/detail"}
                 />
                 <DetailAccordion
                   title='Photon Website'
-                  desc={`A game catalog website. The data used for this website is fetched from https://api.rawg.io/api.
-                  in this project i learn about async process with axios, besides that i also learn about how to use react-redux for state management.
-                  with this app, you can search information about game that you want. Also with the help of framer motion, there is also a fancy animation for every user action.
-                  This is also completely mobile friendly. Feel free to check the website
+                  desc={`This project is to make a currated photo website. I get the data from https://api.pexels.com and use that api as a image source on this website.
+                  Feel free to check the website
                   `}
                   link={"/detail"}
                 />
