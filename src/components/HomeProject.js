@@ -43,11 +43,13 @@ const HomeProject = () => {
               title={"Realty Property"}
               desc='The smartest and most personalized homebuying experience customized by your style, taste and goals to find your home.'
             />
-            <ProjectComponent
-              images={pertamina}
-              title={"Pertamina Cybtr"}
-              desc='Information Management System for Pertamina to track their tankers. This platform is based on Progressive Web App'
-            />
+            <Link to='/pertamina-detail'>
+              <ProjectComponent
+                images={pertamina}
+                title={"Pertamina Cybtr"}
+                desc='Information Management System for Pertamina to track their tankers. This platform is based on Progressive Web App'
+              />
+            </Link>
             <Link to='/react-creative'>
               <ProjectComponent
                 images={reactCreative}

@@ -10,6 +10,7 @@ import UIuxHology from "./pages/UIuxHology";
 import UIuxHaloBeauty from "./pages/UIuxHaloBeauty";
 import ReactDetail from "./pages/ReactDetail";
 import JavaScriptDetail from "./pages/JavaScriptDetail";
+import PertaminaDetail from "./pages/PertaminaDetail";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -72,6 +73,13 @@ function App() {
           path='/javascript-creative'
           element={
             <JavaScriptDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />
+          }
+        />
+        <Route
+          exact
+          path='/pertamina-detail'
+          element={
+            <PertaminaDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />
           }
         />
       </Routes>
