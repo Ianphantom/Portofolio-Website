@@ -42,17 +42,40 @@ const PertaminaDetail = () => {
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Short Explanation</div>
                   <div className='explanation'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quae, illo asperiores debitis vel quos earum quis
-                    repellendus animi delectus. Nulla.
+                    Pertamina Cyber ​​is an information management system for
+                    Pertamina to record the hours of entry and exit of tankers
+                    and the reasons. This platform is based on a Progressive Web
+                    App
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Project Goals</div>
                   <div className='explanation'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quae, illo asperiores debitis vel quos earum quis
-                    repellendus animi delectus. Nulla.
+                    Each Pertamina truck will be equipped with an IoT device.
+                    Making this IoT device was done by my lecturer. When the
+                    Pertamina truck enters or exits the base, the Pertamina
+                    driver will press the button of the IoT device. <br />
+                    <br />
+                    System user officers will get notifications that there will
+                    be a truck that will leave or enter. Then the officer will
+                    choose the reason why the truck exits or enters. There are
+                    16 different reasons requested by pertamina. <br />
+                    <br />
+                    My job here is to develop the backend and frontend systems.
+                    For the backend, the backend system must be able to receive
+                    signals from IoT devices. After that the backend system will
+                    send notifications to the officers in the office. This
+                    notification will be obtained by all responsible officers.
+                    Requirements from the company, the sound of the notification
+                    must not turn off until someone enters information regarding
+                    tanker cars that are leaving or entering. <br />
+                    <br />
+                    The information that needs to be displayed is the time the
+                    car entered, the time it left, the reason, the personnel
+                    doing the checking, and some other confidential information.
+                    Because there was a request to be made in the form of an
+                    application and web, so the creation of this system was made
+                    on the basis of a progressive web app.
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
@@ -172,6 +195,10 @@ const DetailContainer = styled.div`
           font-size: 20px;
           font-weight: 600;
           margin-bottom: 10px;
+        }
+
+        .explanation {
+          font-size: 17;
         }
       }
     }
