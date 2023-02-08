@@ -42,7 +42,7 @@ const PertaminaDetail = () => {
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Short Explanation</div>
                   <div className='explanation'>
-                    Pertamina Cyber ​​is an information management system for
+                    Pertamina Cyber is an information management system for
                     Pertamina to record the hours of entry and exit of tankers
                     and the reasons. This platform is based on a Progressive Web
                     App
@@ -79,11 +79,23 @@ const PertaminaDetail = () => {
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
-                  <div className='sub-detail-wrapper'>Tech Stack Used</div>
+                  <div className='sub-detail-wrapper'>Tech Used</div>
                   <div className='explanation'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quae, illo asperiores debitis vel quos earum quis
-                    repellendus animi delectus. Nulla.
+                    For the backend, we use the CodeIgniter 4 framework. The
+                    choice of this framework is due to several reasons, one of
+                    which is so that Pertamina can carry out maintenance after
+                    the project is handed over to them. For the database side,
+                    we use MySql for the same reason, which is to make
+                    maintenance easier.
+                    <br />
+                    <br />
+                    For the frontend, we use native HTML, CSS, JS to create a
+                    Progressive Web App. The frontend will be connected to the
+                    backend via the Rest API. For admin pages, our bootstrap
+                    framework is standard for styling On the server side, we
+                    also created an exe program whose job is to send
+                    notifications that there will be trucks leaving or entering
+                    a certain area.
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
