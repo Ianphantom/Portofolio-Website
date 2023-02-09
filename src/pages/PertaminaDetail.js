@@ -101,9 +101,14 @@ const PertaminaDetail = () => {
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Spotlight</div>
                   <div className='explanation'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quae, illo asperiores debitis vel quos earum quis
-                    repellendus animi delectus. Nulla.
+                    Making a Progressive Web App natively using only JavaScript
+                    requires more effort. Making this PWA also uses an offline
+                    first approach. Offline first is used in making existing
+                    reports. So, even if the internet connection suddenly
+                    disappears, reports can still be read based on the most
+                    recently updated data. Because the majority of this platform
+                    is used on mobile phones, the design of this platform also
+                    uses a mobile first approach.
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
