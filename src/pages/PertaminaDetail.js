@@ -115,11 +115,7 @@ const PertaminaDetail = () => {
                   <div className='sub-detail-wrapper'>
                     The Problem and How I Deal With It
                   </div>
-                  <div className='explanation'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quae, illo asperiores debitis vel quos earum quis
-                    repellendus animi delectus. Nulla.
-                  </div>
+                  <div className='explanation'></div>
                 </div>
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Lessons Learned</div>
