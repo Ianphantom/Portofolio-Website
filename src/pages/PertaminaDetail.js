@@ -115,14 +115,28 @@ const PertaminaDetail = () => {
                   <div className='sub-detail-wrapper'>
                     The Problem and How I Deal With It
                   </div>
-                  <div className='explanation'></div>
+                  <div className='explanation'>
+                    The main problem of this project is the creation of incoming
+                    and outgoing tanker notifications. Because the project is
+                    web-based, there are some limitations found. One of these
+                    limitations is that the company requests that the
+                    notification sound should not turn off as long as no one is
+                    taking care of the departure or arrival of the tanker truck.
+                    To overcome this problem, there are several settings that
+                    must be changed on the windows that run the application. For
+                    those who run it on Android applications, it must be ensured
+                    that they allow incoming notifications and are not in a
+                    muted position. On android, we can only set a vibration
+                    pattern so that the user can be aware that a new
+                    notification has arrived
+                  </div>
                 </div>
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Lessons Learned</div>
                   <div className='explanation'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quae, illo asperiores debitis vel quos earum quis
-                    repellendus animi delectus. Nulla.
+                    In this project I got a lot of lessons. Starting from how to
+                    connect IoT devices with Backend systems to creating a
+                    Progressive Web App.
                   </div>
                 </div>
               </div>
@@ -134,20 +148,20 @@ const PertaminaDetail = () => {
                   <DetailPages desc={"JS"} />
                   <DetailPages desc={"API"} />
                   <DetailPages desc={"Async"} />
-                  <DetailPages desc={"AJAX"} />
+                  <DetailPages desc={"PWA"} />
                 </div>
                 <div className='wrapper'>
-                  <DetailPages desc={"SCSS"} />
-                  <DetailPages desc={"GSAP"} />
+                  <DetailPages desc={"CI4"} />
+                  <DetailPages desc={"IoT"} />
                 </div>
               </div>
               <div className='featuresContainer'>
                 <div className='features titleRight'>Features</div>
                 <div className='featuresWrapper'>
-                  <DetailFeatures desc={"Object Oriented Programming"} />
-                  <DetailFeatures desc={"Functional Programming"} />
-                  <DetailFeatures desc={"Dynamic UI Library"} />
-                  <DetailFeatures desc={"GreenSock Animation Platform"} />
+                  <DetailFeatures desc={"Progressive Web App"} />
+                  <DetailFeatures desc={"Web Performance"} />
+                  <DetailFeatures desc={"Caching Strategies"} />
+                  <DetailFeatures desc={"Mobile First Approach"} />
                 </div>
               </div>
             </div>
@@ -157,13 +171,10 @@ const PertaminaDetail = () => {
           <div className='container'>
             <div className='title'>Category</div>
             <div className='wrapper'>
-              <DetailCategory desc={"IIFE"} />
-              <DetailCategory desc={"Closures"} />
-              <DetailCategory desc={"AJAX"} />
-              <DetailCategory desc={"Refactoring"} />
-              <DetailCategory desc={"Promises"} />
-              <DetailCategory desc={"Bind"} />
-              <DetailCategory desc={"Call"} />
+              <DetailCategory desc={"Mobile First Approach"} />
+              <DetailCategory desc={"Caching Strategies"} />
+              <DetailCategory desc={"Web Performance"} />
+              <DetailCategory desc={"Progressive Web App"} />
             </div>
             <div className='wrapper'>
               <DetailCategory desc={"Apply"} />
