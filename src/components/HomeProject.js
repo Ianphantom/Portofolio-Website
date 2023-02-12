@@ -38,11 +38,13 @@ const HomeProject = () => {
               title={"HypeAndPlay Marketplace"}
               desc='An ecommerce platform for hobby shopping from surabaya. This platform is currently on develop'
             />
-            <ProjectComponent
-              images={realty}
-              title={"Realty Property"}
-              desc='The smartest and most personalized homebuying experience customized by your style, taste and goals to find your home.'
-            />
+            <Link to='/realty-detail'>
+              <ProjectComponent
+                images={realty}
+                title={"Realty Property"}
+                desc='The smartest and most personalized homebuying experience customized by your style, taste and goals to find your home.'
+              />
+            </Link>
             <Link to='/pertamina-detail'>
               <ProjectComponent
                 images={pertamina}

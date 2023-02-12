@@ -11,6 +11,7 @@ import UIuxHaloBeauty from "./pages/UIuxHaloBeauty";
 import ReactDetail from "./pages/ReactDetail";
 import JavaScriptDetail from "./pages/JavaScriptDetail";
 import PertaminaDetail from "./pages/PertaminaDetail";
+import RealtyDetail from "./pages/RealtyDetail";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -81,6 +82,11 @@ function App() {
           element={
             <PertaminaDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />
           }
+        />
+        <Route
+          exact
+          path='/realty-detail'
+          element={<RealtyDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />}
         />
       </Routes>
       <Footer needToHideNavFoot={needToHideNavFoot} />
