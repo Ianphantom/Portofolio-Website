@@ -52,64 +52,43 @@ const RealtyDetail = () => {
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Project Goals</div>
                   <div className='explanation'>
-                    Each Pertamina truck will be equipped with an IoT device.
-                    Making this IoT device was done by my lecturer. When the
-                    Pertamina truck enters or exits the base, the Pertamina
-                    driver will press the button of the IoT device. <br />
+                    The goals of this project are the Utilization of Blockchain
+                    in the Registration and Transfer of Property Ownership based
+                    on the Ethereum Network to Support the Formation of Smart
+                    Public Administration and Services. For the existing live
+                    preview, for some reason I only show the frontend without
+                    connecting to the database and ethereum network.
                     <br />
-                    System user officers will get notifications that there will
-                    be a truck that will leave or enter. Then the officer will
-                    choose the reason why the truck exits or enters. There are
-                    16 different reasons requested by pertamina. <br />
                     <br />
-                    My job here is to develop the backend and frontend systems.
-                    For the backend, the backend system must be able to receive
-                    signals from IoT devices. After that the backend system will
-                    send notifications to the officers in the office. This
-                    notification will be obtained by all responsible officers.
-                    Requirements from the company, the sound of the notification
-                    must not turn off until someone enters information regarding
-                    tanker cars that are leaving or entering. <br />
+                    Through the platform, landowners can register land that
+                    already has a certificate so that it is registered and has a
+                    new electronic certificate. Before registering the property
+                    they own, each person must complete all data by filling out
+                    the existing registration form. After completing the data,
+                    the user needs to wait for the data to be verified by the
+                    admin.
                     <br />
-                    The information that needs to be displayed is the time the
-                    car entered, the time it left, the reason, the personnel
-                    doing the checking, and some other confidential information.
-                    Because there was a request to be made in the form of an
-                    application and web, so the creation of this system was made
-                    on the basis of a progressive web app.
+                    <br />
+                    Any property owner who already has an electronic certificate
+                    can sell their property. After they sell, their property
+                    will automatically be listed on this platform. When a buyer
+                    wants to buy, the electronic certificate will automatically
+                    be sent to the new buyer's account.
+                    <br />
+                    <br />
+                    My task in this project is to make a website display using
+                    data from the database. Apart from the database, this system
+                    is also connected to IPFS for storing its certificates.
+                    There are several components that I made such as
+                    notifications, messages, product cards, product details etc.
+                    Feel free to check the website for detailed information
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Tech Used</div>
                   <div className='explanation'>
-                    For the backend, we use the CodeIgniter 4 framework. The
-                    choice of this framework is due to several reasons, one of
-                    which is so that Pertamina can carry out maintenance after
-                    the project is handed over to them. For the database side,
-                    we use MySql for the same reason, which is to make
-                    maintenance easier.
-                    <br />
-                    <br />
-                    For the frontend, we use native HTML, CSS, JS to create a
-                    Progressive Web App. The frontend will be connected to the
-                    backend via the Rest API. For admin pages, our bootstrap
-                    framework is standard for styling On the server side, we
-                    also created an exe program whose job is to send
-                    notifications that there will be trucks leaving or entering
-                    a certain area.
-                  </div>
-                </div>
-                <div className='explanation-wrapper'>
-                  <div className='sub-detail-wrapper'>Spotlight</div>
-                  <div className='explanation'>
-                    Making a Progressive Web App natively using only JavaScript
-                    requires more effort. Making this PWA also uses an offline
-                    first approach. Offline first is used in making existing
-                    reports. So, even if the internet connection suddenly
-                    disappears, reports can still be read based on the most
-                    recently updated data. Because the majority of this platform
-                    is used on mobile phones, the design of this platform also
-                    uses a mobile first approach.
+                    For the frontend, this website is based on React JS. The
+                    frontend will be connected to the backend via the Rest API.
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
@@ -117,27 +96,19 @@ const RealtyDetail = () => {
                     The Problem and How I Deal With It
                   </div>
                   <div className='explanation'>
-                    The main problem of this project is the creation of incoming
-                    and outgoing tanker notifications. Because the project is
-                    web-based, there are some limitations found. One of these
-                    limitations is that the company requests that the
-                    notification sound should not turn off as long as no one is
-                    taking care of the departure or arrival of the tanker truck.
-                    To overcome this problem, there are several settings that
-                    must be changed on the windows that run the application. For
-                    those who run it on Android applications, it must be ensured
-                    that they allow incoming notifications and are not in a
-                    muted position. On android, we can only set a vibration
-                    pattern so that the user can be aware that a new
-                    notification has arrived
+                    The main problem we experienced in making this project was
+                    optimizing the loading of the page that opened. Because we
+                    use a lot of images, we have to compress the images uploaded
+                    by the user. Compression must also keep in mind that some
+                    images will be displayed at a large size.
                   </div>
                 </div>
                 <div className='explanation-wrapper'>
                   <div className='sub-detail-wrapper'>Lessons Learned</div>
                   <div className='explanation'>
                     In this project I got a lot of lessons. Starting from how to
-                    connect IoT devices with Backend systems to creating a
-                    Progressive Web App.
+                    use component accross the project to creating a function for
+                    large scale website
                   </div>
                 </div>
               </div>
@@ -148,20 +119,20 @@ const RealtyDetail = () => {
                 <div className='wrapper'>
                   <DetailPages desc={"JS"} />
                   <DetailPages desc={"API"} />
-                  <DetailPages desc={"Async"} />
-                  <DetailPages desc={"PWA"} />
+                  <DetailPages desc={"Hooks"} />
+                  <DetailPages desc={"JSX"} />
                 </div>
                 <div className='wrapper'>
-                  <DetailPages desc={"CI4"} />
-                  <DetailPages desc={"IoT"} />
+                  <DetailPages desc={"AJAX"} />
+                  <DetailPages desc={"GSAP"} />
                 </div>
               </div>
               <div className='featuresContainer'>
                 <div className='features titleRight'>Features</div>
                 <div className='featuresWrapper'>
-                  <DetailFeatures desc={"Progressive Web App"} />
+                  <DetailFeatures desc={"Dynamic UI Library"} />
                   <DetailFeatures desc={"Web Performance"} />
-                  <DetailFeatures desc={"Caching Strategies"} />
+                  <DetailFeatures desc={"Styled Components"} />
                   <DetailFeatures desc={"Mobile First Approach"} />
                 </div>
               </div>
@@ -173,9 +144,9 @@ const RealtyDetail = () => {
             <div className='title'>Category</div>
             <div className='wrapper'>
               <DetailCategory desc={"Mobile First Approach"} />
-              <DetailCategory desc={"Caching Strategies"} />
+              <DetailCategory desc={"Dynamic UI Library"} />
               <DetailCategory desc={"Web Performance"} />
-              <DetailCategory desc={"Progressive Web App"} />
+              <DetailCategory desc={"Styled Components"} />
             </div>
             <div className='wrapper'>
               <DetailCategory desc={"Apply"} />
