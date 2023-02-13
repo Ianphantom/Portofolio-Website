@@ -121,19 +121,19 @@ const HypeAndPlayDetail = () => {
                   <DetailPages desc={"JS"} />
                   <DetailPages desc={"API"} />
                   <DetailPages desc={"Async"} />
-                  <DetailPages desc={"PWA"} />
+                  <DetailPages desc={"AJAX"} />
                 </div>
                 <div className='wrapper'>
-                  <DetailPages desc={"CI4"} />
-                  <DetailPages desc={"IoT"} />
+                  <DetailPages desc={"HTML"} />
+                  <DetailPages desc={"CSS"} />
                 </div>
               </div>
               <div className='featuresContainer'>
                 <div className='features titleRight'>Features</div>
                 <div className='featuresWrapper'>
-                  <DetailFeatures desc={"Progressive Web App"} />
+                  <DetailFeatures desc={"Ecommerce Website"} />
                   <DetailFeatures desc={"Web Performance"} />
-                  <DetailFeatures desc={"Caching Strategies"} />
+                  <DetailFeatures desc={"Dynamic UI Library"} />
                   <DetailFeatures desc={"Mobile First Approach"} />
                 </div>
               </div>
@@ -145,9 +145,9 @@ const HypeAndPlayDetail = () => {
             <div className='title'>Category</div>
             <div className='wrapper'>
               <DetailCategory desc={"Mobile First Approach"} />
-              <DetailCategory desc={"Caching Strategies"} />
+              <DetailCategory desc={"Ecommerce Website"} />
               <DetailCategory desc={"Web Performance"} />
-              <DetailCategory desc={"Progressive Web App"} />
+              <DetailCategory desc={"Dynamic UI Library"} />
             </div>
             <div className='wrapper'>
               <DetailCategory desc={"Apply"} />
