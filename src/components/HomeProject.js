@@ -33,11 +33,14 @@ const HomeProject = () => {
                 desc='A collaborative project with my team to make UI/UX case studies for several national level competitions in Indonesia'
               />
             </Link>
-            <ProjectComponent
-              images={hypeandplay}
-              title={"HypeAndPlay Marketplace"}
-              desc='An ecommerce platform for hobby shopping from surabaya. This platform is currently on develop'
-            />
+            <Link to='/hypeandplay-detail'>
+              <ProjectComponent
+                images={hypeandplay}
+                title={"HypeAndPlay Marketplace"}
+                desc='An ecommerce platform for hobby shopping from surabaya. This platform is currently on develop'
+              />
+            </Link>
+
             <Link to='/realty-detail'>
               <ProjectComponent
                 images={realty}

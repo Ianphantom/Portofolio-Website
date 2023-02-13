@@ -12,6 +12,7 @@ import ReactDetail from "./pages/ReactDetail";
 import JavaScriptDetail from "./pages/JavaScriptDetail";
 import PertaminaDetail from "./pages/PertaminaDetail";
 import RealtyDetail from "./pages/RealtyDetail";
+import HypeAndPlayDetail from "./pages/HypeAndPlayDetail";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -87,6 +88,13 @@ function App() {
           exact
           path='/realty-detail'
           element={<RealtyDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />}
+        />
+        <Route
+          exact
+          path='/hypeandplay-detail'
+          element={
+            <HypeAndPlayDetail setNeedToHideNavFoot={setNeedToHideNavFoot} />
+          }
         />
       </Routes>
       <Footer needToHideNavFoot={needToHideNavFoot} />
