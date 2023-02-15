@@ -57,7 +57,11 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
       </aside>
       <main>
         {ProjectState.map((item) => (
-          <FunProjectDetail key={item.index} images={item.image} />
+          <FunProjectDetail
+            key={item.index}
+            images={item.image}
+            text={item.text}
+          />
         ))}
       </main>
     </FunProjectContainer>
@@ -72,7 +76,7 @@ const FunProjectContainer = styled.div`
   aside {
     position: sticky;
     top: 0;
-    width: 300px;
+    width: 20%;
     padding: 30px 30px;
     height: 100vh;
     display: flex;
@@ -107,6 +111,7 @@ const FunProjectContainer = styled.div`
     }
   }
   main {
+    width: 90%;
     padding: 12px;
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
