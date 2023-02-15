@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const DetailHeadComponent = ({ title, desc, live, source }) => {
   return (
@@ -14,7 +15,9 @@ const DetailHeadComponent = ({ title, desc, live, source }) => {
           <a href={source} target='_blank' rel='noopener noreferrer'>
             <div className='source'>Source Code</div>
           </a>
-          <div className='live'>Live Preview</div>
+          <Link to={live}>
+            <div className='live'>Live Preview</div>
+          </Link>
         </div>
       </div>
     </HeadContainer>

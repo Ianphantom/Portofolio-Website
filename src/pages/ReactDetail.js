@@ -27,7 +27,7 @@ const ReactDetail = () => {
             desc={
               "A fun project to build website using ReactJS and learn about state management using Redux"
             }
-            live={"#"}
+            live={"/funproject"}
             source={
               "https://github.com/Ianphantom/Exercise-Website-React-Creative"
             }

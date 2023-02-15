@@ -6,7 +6,10 @@ const FunProjectDetail = ({ images, text }) => {
     <DetailContainer>
       <img src={images} alt='Preview Project' />
       <div className='overlay'>
-        <div className='text'>{text}</div>
+        <div className='text'>
+          <div className='projectTitle'>{text}</div>
+          <div>Click to see more!</div>
+        </div>
       </div>
     </DetailContainer>
   );
@@ -35,8 +38,8 @@ const DetailContainer = styled.div`
   }
 
   .text {
-    color: white;
-    font-size: 20px;
+    color: #b4b4b4;
+    font-size: 18px;
     position: absolute;
     z-index: 2;
     top: 50%;
@@ -45,6 +48,12 @@ const DetailContainer = styled.div`
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+
+    .projectTitle {
+      font-size: 25px;
+      font-weight: 800;
+      color: white;
+    }
   }
 
   &:hover {

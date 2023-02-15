@@ -27,7 +27,7 @@ const JavaScriptDetail = () => {
             desc={
               "A fun project to learn javascript for frontend website development"
             }
-            live={"#"}
+            live={"/funproject"}
             source={
               "https://github.com/Ianphantom/Exercise-Website-creative-javascript"
             }

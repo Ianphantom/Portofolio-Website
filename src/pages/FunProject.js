@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 
+import { useNavigate } from "react-router-dom";
 import FunProjectDetail from "../components/FunProjectDetail";
 import { ProjectState } from "../ProjectState";
 
@@ -8,35 +9,24 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
   useEffect(() => {
     setNeedToHideNavFoot(true);
   }, [setNeedToHideNavFoot]);
+
+  const navigate = useNavigate();
   return (
     <FunProjectContainer>
       <aside>
         <header>
           <div className='icon'>
             <svg
-              width='32'
-              height='32'
-              viewBox='0 0 32 32'
+              width='24'
+              height='24'
+              viewBox='0 0 24 24'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
+              onClick={() => navigate(-1)}
             >
               <path
-                d='M4 16C4 9.373 9.373 4 16 4C22.627 4 28 9.373 28 16C28 22.627 22.627 28 16 28C9.373 28 4 22.627 4 16Z'
-                stroke='white'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-              />
-              <path
-                d='M10 13.5C10 12.672 10.672 12 11.5 12C12.328 12 13 12.672 13 13.5C13 14.328 12.328 15 11.5 15C10.672 15 10 14.328 10 13.5Z'
+                d='M20.0002 11.0001V13.0001H8.00016L13.5002 18.5001L12.0802 19.9201L4.16016 12.0001L12.0802 4.08008L13.5002 5.50008L8.00016 11.0001H20.0002Z'
                 fill='white'
-              />
-              <path
-                d='M18.9998 13.5H21.9998M21.1998 19C20.1238 20.853 18.1428 21.994 15.9998 21.994C13.8568 21.994 11.8758 20.853 10.7998 19'
-                stroke='white'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
               />
             </svg>
           </div>
@@ -82,8 +72,11 @@ const FunProjectContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    svg {
+    .icon {
       margin-bottom: 14px;
+      svg {
+        cursor: pointer;
+      }
     }
     .title {
       font-weight: 700;
