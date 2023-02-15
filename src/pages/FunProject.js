@@ -110,6 +110,21 @@ const FunProjectContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 12px;
   }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    aside {
+      width: 100%;
+      gap: 100px;
+      height: fit-content;
+      position: static;
+    }
+
+    main {
+      width: 100%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 `;
 
 export default FunProject;
