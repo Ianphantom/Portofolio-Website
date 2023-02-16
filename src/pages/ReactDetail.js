@@ -47,7 +47,7 @@ const ReactDetail = () => {
                   You can play, rewind, skip to the next or previos song, jump into specific time for each song.
                   There is also a library section where you can see all the songs that available.
                   This is also completely mobile friendly`}
-                  link={"/detail"}
+                  link={"https://effulgent-cupcake-e5436d.netlify.app/"}
                 />
                 <DetailAccordion
                   title='Capture Landing Page'
@@ -56,7 +56,7 @@ const ReactDetail = () => {
                   there is three main page on this landing page, about us, our work, and contact us.
                   This is also completely mobile friendly. Feel free to check the website
                   `}
-                  link={"/detail"}
+                  link={"https://exquisite-zabaione-83486d.netlify.app/"}
                 />
                 <DetailAccordion
                   title='Ignite Catalog'
@@ -65,7 +65,7 @@ const ReactDetail = () => {
                   with this app, you can search information about game that you want. Also with the help of framer motion, there is also a fancy animation for every user action.
                   This is also completely mobile friendly. Feel free to check the website
                   `}
-                  link={"/detail"}
+                  link={"https://zingy-yeot-7ffc95.netlify.app/"}
                 />
               </div>
             </div>
