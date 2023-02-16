@@ -26,7 +26,7 @@ const RealtyDetail = () => {
             desc={
               "A fun project to create a website for buying and selling property in Indonesia"
             }
-            live={"#"}
+            live={"https://flourishing-swan-39e288.netlify.app/"}
             source={
               "https://github.com/Ianphantom/Exercise-Website-creative-javascript"
             }
