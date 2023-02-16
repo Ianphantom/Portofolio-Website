@@ -47,7 +47,7 @@ const JavaScriptDetail = () => {
                   that color palettes and give name to each of them. You can check all your color palettes on your library menu and you can select them. After you select them, 
                   that color palettes will be displayed on your screen. Because this is a project to learn javascript, i was not
                   implementing the mobile view. Feel free to check the website`}
-                  link={"/detail"}
+                  link={"https://eloquent-raindrop-17a6fa.netlify.app/"}
                 />
                 <DetailAccordion
                   title='Beat Maker'
@@ -57,21 +57,21 @@ const JavaScriptDetail = () => {
                   You can also set the bpm to a number that you want. Because this is a project to learn javascript, i was not
                   implementing the mobile view. Feel free to check the website
                   `}
-                  link={"/detail"}
+                  link={"https://clinquant-elf-8b4ca9.netlify.app/"}
                 />
                 <DetailAccordion
                   title='Travel Project Website'
                   desc={`This project is to learn how to make fancy animation on a website. I use ScrollMagic and GSAP for the animation.
                   Because this is a project to learn javascript, i was not implementing the mobile view. Feel free to check the website
                   `}
-                  link={"/detail"}
+                  link={"https://endearing-sprite-2efae5.netlify.app/"}
                 />
                 <DetailAccordion
                   title='Photon Website'
                   desc={`This project is to make a currated photo website. I get the data from https://api.pexels.com and use that api as a image source on this website.
                   Feel free to check the website
                   `}
-                  link={"/detail"}
+                  link={"https://guileless-concha-f8ad52.netlify.app/"}
                 />
               </div>
             </div>
