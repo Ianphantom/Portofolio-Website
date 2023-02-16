@@ -32,9 +32,8 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
           </div>
           <div className='title'>My Project</div>
           <div className='desc'>
-            A minimal template for your art or photography. Includes a grid
-            layout, overlays, and effects. All of the content is easily editable
-            via the CMS. Made by Benjamin.
+            Feel free to check one by one all the fun project that i had made.
+            Enjoy It!
           </div>
         </header>
         <nav>
@@ -51,6 +50,7 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
             key={item.index}
             images={item.image}
             text={item.text}
+            link={item.link}
           />
         ))}
       </main>
