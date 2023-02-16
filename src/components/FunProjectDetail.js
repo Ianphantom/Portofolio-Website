@@ -1,16 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-const FunProjectDetail = ({ images, text }) => {
+const FunProjectDetail = ({ images, text, link }) => {
   return (
     <DetailContainer>
-      <img src={images} alt='Preview Project' />
-      <div className='overlay'>
-        <div className='text'>
-          <div className='projectTitle'>{text}</div>
-          <div>Click to see more!</div>
+      <a href={link} target='_blank' rel='noopener noreferrer'>
+        <img src={images} alt='Preview Project' />
+        <div className='overlay'>
+          <div className='text'>
+            <div className='projectTitle'>{text}</div>
+            <div>Click to see more!</div>
+          </div>
         </div>
-      </div>
+      </a>
     </DetailContainer>
   );
 };
