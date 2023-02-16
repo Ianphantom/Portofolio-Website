@@ -26,7 +26,7 @@ const HypeAndPlayDetail = () => {
             desc={
               "An ecommerce platform for hobby shopping from surabaya. This platform is currently on develop"
             }
-            live={"#"}
+            live={"http://hypeandplay.com"}
             source={
               "https://github.com/Ianphantom/Exercise-Website-creative-javascript"
             }
