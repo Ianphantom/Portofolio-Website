@@ -1,16 +1,22 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, Link } from "react-router-dom";
 import FunProjectDetail from "../components/FunProjectDetail";
 import { ProjectState } from "../ProjectState";
 
 const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
-  const url = useLocation().pathname;
-  console.log(url);
+  const url = useLocation().pathname.split("/");
+  let category;
+  if (url.length == 2) {
+    category = "all";
+  } else {
+    category = url[2];
+  }
+  console.log(category);
   useEffect(() => {
     setNeedToHideNavFoot(true);
-  }, [setNeedToHideNavFoot]);
+  }, [setNeedToHideNavFoot, category]);
 
   const [project, setProject] = useState(ProjectState);
   console.log(project);
@@ -41,13 +47,21 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
           </div>
         </header>
         <nav>
-          <div className='nav-item'>JavaScript Creative</div>
+          <Link to='/funproject/javascript'>
+            <div className='nav-item'>JavaScript Creative</div>
+          </Link>
           <hr />
-          <div className='nav-item'>React Creative</div>
+          <Link to='/funproject/reactcreative'>
+            <div className='nav-item'>React Creative</div>
+          </Link>
           <hr />
-          <div className='nav-item'>Others</div>
+          <Link to='/funproject/others'>
+            <div className='nav-item'>Others</div>
+          </Link>
           <hr />
-          <div className='nav-item'>All</div>
+          <Link to='/funproject/all'>
+            <div className='nav-item'>All</div>
+          </Link>
         </nav>
       </aside>
       <main>
