@@ -26,14 +26,12 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
 
   useEffect(() => {
     setNeedToHideNavFoot(true);
-
-    if (url[2] === "") {
+    if (url[2] === "" || url.length < 3) {
       setCategory("all");
     } else {
       setCategory(url[2]);
     }
   }, [setNeedToHideNavFoot, url, category]);
-
   return (
     <FunProjectContainer>
       <aside>
