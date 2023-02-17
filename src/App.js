@@ -98,8 +98,16 @@ function App() {
           }
         />
         <Route
-          exact
           path='/funproject'
+          element={
+            <FunProject
+              setNeedToHideNavFoot={setNeedToHideNavFoot}
+              needToHideNavFoot={needToHideNavFoot}
+            />
+          }
+        />
+        <Route
+          path='/funproject/:category'
           element={
             <FunProject
               setNeedToHideNavFoot={setNeedToHideNavFoot}

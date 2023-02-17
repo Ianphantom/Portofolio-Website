@@ -1,15 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import FunProjectDetail from "../components/FunProjectDetail";
 import { ProjectState } from "../ProjectState";
 
 const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
+  const url = useLocation().pathname;
+  console.log(url);
   useEffect(() => {
     setNeedToHideNavFoot(true);
   }, [setNeedToHideNavFoot]);
 
+  const [project, setProject] = useState(ProjectState);
+  console.log(project);
   const navigate = useNavigate();
   return (
     <FunProjectContainer>
@@ -42,6 +46,8 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
           <div className='nav-item'>React Creative</div>
           <hr />
           <div className='nav-item'>Others</div>
+          <hr />
+          <div className='nav-item'>All</div>
         </nav>
       </aside>
       <main>
@@ -97,6 +103,11 @@ const FunProjectContainer = styled.div`
         font-size: 16px;
         line-height: 22px;
         color: #ffffff;
+        cursor: pointer;
+        transition: 1s ease all;
+        &:hover {
+          font-size: 18px;
+        }
       }
       hr {
         background: rgba(238, 238, 238, 0.2);
