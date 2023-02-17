@@ -1,26 +1,39 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import FunProjectDetail from "../components/FunProjectDetail";
 import { ProjectState } from "../ProjectState";
 
 const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
+  const navigate = useNavigate();
   const url = useLocation().pathname.split("/");
-  let category;
-  if (url.length == 2) {
-    category = "all";
-  } else {
-    category = url[2];
-  }
-  console.log(category);
+
+  const [category, setCategory] = useState("");
+
+  const middleContainer = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        duration: 0.3,
+        ease: "easeOut",
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
   useEffect(() => {
     setNeedToHideNavFoot(true);
-  }, [setNeedToHideNavFoot, category]);
 
-  const [project, setProject] = useState(ProjectState);
-  console.log(project);
-  const navigate = useNavigate();
+    if (url[2] === "") {
+      setCategory("all");
+    } else {
+      setCategory(url[2]);
+    }
+  }, [setNeedToHideNavFoot, url, category]);
+
   return (
     <FunProjectContainer>
       <aside>
@@ -64,16 +77,34 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
           </Link>
         </nav>
       </aside>
-      <main>
-        {ProjectState.map((item) => (
-          <FunProjectDetail
-            key={item.index}
-            images={item.image}
-            text={item.text}
-            link={item.link}
-          />
-        ))}
-      </main>
+      <motion.main
+        variants={middleContainer}
+        initial='hidden'
+        animate='show'
+        key={category}
+      >
+        {category !== "all"
+          ? ProjectState.map((item) =>
+              item.category === category ? (
+                <FunProjectDetail
+                  key={item.index}
+                  images={item.image}
+                  text={item.text}
+                  link={item.link}
+                />
+              ) : (
+                ""
+              )
+            )
+          : ProjectState.map((item) => (
+              <FunProjectDetail
+                key={item.index}
+                images={item.image}
+                text={item.text}
+                link={item.link}
+              />
+            ))}
+      </motion.main>
     </FunProjectContainer>
   );
 };

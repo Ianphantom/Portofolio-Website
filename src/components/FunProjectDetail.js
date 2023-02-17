@@ -1,9 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 const FunProjectDetail = ({ images, text, link }) => {
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
   return (
-    <DetailContainer>
+    <DetailContainer variants={item}>
       <a href={link} target='_blank' rel='noopener noreferrer'>
         <img src={images} alt='Preview Project' />
         <div className='overlay'>
@@ -17,7 +22,7 @@ const FunProjectDetail = ({ images, text, link }) => {
   );
 };
 
-const DetailContainer = styled.div`
+const DetailContainer = styled(motion.div)`
   position: relative;
   cursor: pointer;
   img {
