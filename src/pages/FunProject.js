@@ -17,9 +17,9 @@ const FunProject = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
     show: {
       opacity: 1,
       transition: {
-        duration: 0.3,
+        duration: 0.25,
         ease: "easeOut",
-        staggerChildren: 0.3,
+        staggerChildren: 0.25,
       },
     },
   };
