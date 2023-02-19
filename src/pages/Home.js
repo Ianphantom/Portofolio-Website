@@ -1,5 +1,4 @@
 import React from "react";
-// import styled from "styled-components";
 
 // Import Section
 import HomeSectionOne from "../components/HomeSectionOne";
