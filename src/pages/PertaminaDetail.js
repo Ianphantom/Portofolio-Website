@@ -27,9 +27,7 @@ const PertaminaDetail = () => {
               "A project to build system information managament for their tanker truck"
             }
             live={"#"}
-            source={
-              "https://github.com/Ianphantom/Exercise-Website-creative-javascript"
-            }
+            source={"#"}
           />
         </div>
 

@@ -28,7 +28,7 @@ const RealtyDetail = () => {
             }
             live={"https://flourishing-swan-39e288.netlify.app/"}
             source={
-              "https://github.com/Ianphantom/Exercise-Website-creative-javascript"
+              "https://github.com/Ianphantom/Exercise-Website-React-Creative/tree/main/blockchain"
             }
           />
         </div>
