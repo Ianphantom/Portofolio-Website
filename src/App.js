@@ -14,6 +14,7 @@ import PertaminaDetail from "./pages/PertaminaDetail";
 import RealtyDetail from "./pages/RealtyDetail";
 import HypeAndPlayDetail from "./pages/HypeAndPlayDetail";
 import FunProject from "./pages/FunProject";
+import NotFound from "./pages/NotFound";
 
 // Import Components
 import NavBar from "./components/NavBar";
@@ -110,6 +111,15 @@ function App() {
           path='/funproject/:category'
           element={
             <FunProject
+              setNeedToHideNavFoot={setNeedToHideNavFoot}
+              needToHideNavFoot={needToHideNavFoot}
+            />
+          }
+        />
+        <Route
+          path='/404'
+          element={
+            <NotFound
               setNeedToHideNavFoot={setNeedToHideNavFoot}
               needToHideNavFoot={needToHideNavFoot}
             />
