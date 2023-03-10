@@ -8,12 +8,6 @@ import UxFlyerComponent from "../components/UXFlyerComponent";
 import UxExplanation from "../components/UxExplanation";
 import UxPrototipe from "../components/UxPrototipe";
 
-// import Images
-import fyler from "../images/teenagrFlyer.png";
-import shifterion1 from "../images/BeautyImage1.png";
-import shifterion2 from "../images/BeautyImage2.jpg";
-import shifterion3 from "../images/BeautyImage3.jpg";
-import shifterion4 from "../images/ShifterionImage4.png";
 import { useEffect } from "react";
 
 const UIuxHaloBeauty = ({ setNeedToHideNavFoot }) => {
@@ -28,7 +22,11 @@ const UIuxHaloBeauty = ({ setNeedToHideNavFoot }) => {
         role={"UI/UX Designer"}
         timeline={"July - November 2021"}
       />
-      <UxFlyerComponent src={fyler} />
+      <UxFlyerComponent
+        src={
+          "https://ik.imagekit.io/phantomv008/teenagrFlyer.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678457002815"
+        }
+      />
       <div className='container explanation'>
         <UxExplanation
           title={`The Client.`}
@@ -63,7 +61,12 @@ const UIuxHaloBeauty = ({ setNeedToHideNavFoot }) => {
             data-aos='zoom-in'
             data-aos-duration='1000'
           >
-            <img src={shifterion1} alt='Shifterion1' />
+            <img
+              src={
+                "https://ik.imagekit.io/phantomv008/BeautyImage1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678456993980"
+              }
+              alt='Shifterion1'
+            />
           </div>
           <div className='imageFlex2'>
             <div
@@ -71,14 +74,24 @@ const UIuxHaloBeauty = ({ setNeedToHideNavFoot }) => {
               data-aos='zoom-in'
               data-aos-duration='1000'
             >
-              <img src={shifterion2} alt='Shifterion1' />
+              <img
+                src={
+                  "https://ik.imagekit.io/phantomv008/BeautyImage2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678457000265"
+                }
+                alt='Shifterion1'
+              />
             </div>
             <div
               className='imageContainer'
               data-aos='zoom-in'
               data-aos-duration='1500'
             >
-              <img src={shifterion3} alt='Shifterion1' />
+              <img
+                src={
+                  "https://ik.imagekit.io/phantomv008/BeautyImage3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678457000304"
+                }
+                alt='Shifterion1'
+              />
             </div>
           </div>
         </div>
@@ -88,7 +101,9 @@ const UIuxHaloBeauty = ({ setNeedToHideNavFoot }) => {
         />
         {/* ini screen prototipe */}
         <UxPrototipe
-          imgscreen={shifterion4}
+          imgscreen={
+            "https://ik.imagekit.io/phantomv008/ShifterionImage4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678457000704"
+          }
           src='https://www.figma.com/proto/B7QMpeRwGNEYdDBzr8mazY/HaloBeauty?page-id=1%3A3&node-id=65%3A541&viewport=280%2C179%2C0.12&scaling=scale-down&starting-point-node-id=65%3A541&show-proto-sidebar=1'
         />
         <UxExplanation

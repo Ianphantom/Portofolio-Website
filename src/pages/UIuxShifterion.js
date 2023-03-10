@@ -8,12 +8,12 @@ import UxFlyerComponent from "../components/UXFlyerComponent";
 import UxExplanation from "../components/UxExplanation";
 import UxPrototipe from "../components/UxPrototipe";
 
-// import Images
-import fyler from "../images/teenagrFlyer.png";
-import shifterion1 from "../images/ShifterionImage1.png";
-import shifterion2 from "../images/ShifterionImage2.png";
-import shifterion3 from "../images/ShifterionImage3.png";
-import shifterion4 from "../images/ShifterionImage4.png";
+// // import Images
+// import fyler from "../images/teenagrFlyer.png";
+// import shifterion1 from "../images/ShifterionImage1.png";
+// import shifterion2 from "../images/ShifterionImage2.png";
+// import shifterion3 from "../images/ShifterionImage3.png";
+// import shifterion4 from "../images/ShifterionImage4.png";
 import { useEffect } from "react";
 
 const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
@@ -28,7 +28,11 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
         role={"UI/UX Designer"}
         timeline={"Oktober - December 2022"}
       />
-      <UxFlyerComponent src={fyler} />
+      <UxFlyerComponent
+        src={
+          "https://ik.imagekit.io/phantomv008/teenagrFlyer.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678457002815"
+        }
+      />
       <div className='container explanation'>
         <UxExplanation
           title={`The Client.`}
@@ -59,7 +63,12 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
             data-aos='zoom-in'
             data-aos-duration='1000'
           >
-            <img src={shifterion1} alt='Shifterion1' />
+            <img
+              src={
+                "https://ik.imagekit.io/phantomv008/ShifterionImage1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678456997948"
+              }
+              alt='Shifterion1'
+            />
           </div>
           <div className='imageFlex2'>
             <div
@@ -67,14 +76,24 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
               data-aos='zoom-in'
               data-aos-duration='1000'
             >
-              <img src={shifterion2} alt='Shifterion1' />
+              <img
+                src={
+                  "https://ik.imagekit.io/phantomv008/ShifterionImage2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678457001953"
+                }
+                alt='Shifterion1'
+              />
             </div>
             <div
               className='imageContainer'
               data-aos='zoom-in'
               data-aos-duration='1500'
             >
-              <img src={shifterion3} alt='Shifterion1' />
+              <img
+                src={
+                  "https://ik.imagekit.io/phantomv008/ShifterionImage3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678457000889"
+                }
+                alt='Shifterion1'
+              />
             </div>
           </div>
         </div>
@@ -84,7 +103,9 @@ const UiuxShifterion = ({ setNeedToHideNavFoot }) => {
         />
         {/* ini screen prototipe */}
         <UxPrototipe
-          imgscreen={shifterion4}
+          imgscreen={
+            "https://ik.imagekit.io/phantomv008/ShifterionImage4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678457000704"
+          }
           src='https://www.figma.com/proto/9TeTmp8LyEC41mV2Meih20/TEENAGR-App?page-id=80%3A1268&node-id=80%3A3621&viewport=388%2C412%2C0.09&scaling=scale-down&starting-point-node-id=80%3A3621'
         />
         <UxExplanation

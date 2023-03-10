@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import backgroundMockup from "../images/backgroundMockup.png";
+// import backgroundMockup from "../images/backgroundMockup.png";
 
 const Uiux = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
   const [myProject] = useState(UxState);
@@ -198,7 +198,9 @@ const Uiux = ({ setNeedToHideNavFoot, needToHideNavFoot }) => {
       </div>
       <div
         className='right space'
-        style={{ backgroundImage: `url(${backgroundMockup})` }}
+        style={{
+          backgroundImage: `url(https://ik.imagekit.io/phantomv008/backgroundMockup.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678456999586)`,
+        }}
       >
         <motion.img
           initial={{ y: "100%" }}
