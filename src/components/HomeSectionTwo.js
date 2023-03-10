@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 // Import Image
-import MeImage from "../images/me.png";
-import Awardee from "../images/award.png";
+// import MeImage from "../images/me.png";
+// import Awardee from "../images/award.png";
 
 const HomeSectionTwo = () => {
   return (
@@ -11,7 +11,12 @@ const HomeSectionTwo = () => {
       <div className='container'>
         <div className='row first'>
           <div className='col-md-6'>
-            <img src={MeImage} alt='Myself Preview' />
+            <img
+              src={
+                "https://ik.imagekit.io/phantomv008/me.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678439771225"
+              }
+              alt='Myself Preview'
+            />
           </div>
           <div className='col-md-6 section2'>
             <div className='h1 text-36 weight-bold playfair'>About Me</div>
@@ -32,7 +37,12 @@ const HomeSectionTwo = () => {
             </div>
             <div className='row section3'>
               <div className='col-md-4 gambarAward'>
-                <img src={Awardee} alt='Awardee Preview' />
+                <img
+                  src={
+                    "https://ik.imagekit.io/phantomv008/award.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678440551320"
+                  }
+                  alt='Awardee Preview'
+                />
               </div>
               <div className='col-md-8 awardText'>
                 <div className='prizeItem text-17 weight-medium utama'>

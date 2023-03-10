@@ -4,9 +4,9 @@ import TypeWriter from "typewriter-effect";
 import { motion } from "framer-motion";
 
 // Import Images
-import Experience from "../images/experience.png";
-import Landing1 from "../images/landing1.png";
-import Landing2 from "../images/landing2.png";
+// import Experience from "../images/experience.png";
+// import Landing1 from "../images/landing1.png";
+// import Landing2 from "../images/landing2.png";
 
 const HomeSectionOne = () => {
   return (
@@ -40,7 +40,9 @@ const HomeSectionOne = () => {
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
-                  src={Landing1}
+                  src={
+                    "https://ik.imagekit.io/phantomv008/landing1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678440085372"
+                  }
                   alt='img Preview'
                 />
               </div>
@@ -49,7 +51,9 @@ const HomeSectionOne = () => {
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
-                  src={Landing2}
+                  src={
+                    "https://ik.imagekit.io/phantomv008/landing2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678440237266"
+                  }
                   alt='Img Preview'
                 />
               </div>
@@ -114,7 +118,12 @@ const HomeSectionOne = () => {
             </div>
           </div>
           <div className='col-md-2 totalExperience'>
-            <img src={Experience} alt='Experience Preview' />
+            <img
+              src={
+                "https://ik.imagekit.io/phantomv008/experience.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678440415051"
+              }
+              alt='Experience Preview'
+            />
           </div>
         </div>
       </div>
